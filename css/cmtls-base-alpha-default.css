@@ -1,0 +1,42 @@
+/* This file will hold styles that are loaded using the same media query as the narrow grid. */
+
+body {
+	font-size: 15px;
+}
+
+
+
+/*** LEFT MENU *****************************************************************/
+/*
+#block-menu-block-2 {
+	padding: 1.2em;
+	border-radius: 5px 5px 5px 5px;
+}
+
+	#block-menu-block-2 ul {
+		text-align: right;
+	}
+
+		#block-menu-block-2 ul li {
+			font-size: 120%;
+			margin-bottom: 5px;
+			padding-bottom: 5px;
+			list-style: none;
+			line-height: 115%;
+			display: list-item;
+		}
+
+			#block-menu-block-2 ul li.last {
+				border-bottom: none;
+			}
+
+			#block-menu-block-2 ul li a {
+				border: none;
+				opacity: 0.8;
+			}
+
+				#block-menu-block-2 ul li a.active {
+					font-weight: bold;
+					opacity: 1;
+				}
+*/
