@@ -1,0 +1,29 @@
+/*Redefine system tabs*/
+#region-preface UL.primary
+{
+	/*[disabled]border:none;*/
+	/*[disabled]margin:0;*/
+	/*[disabled]padding:0;*/
+	/*[disabled]font-size:0.8em;*/
+}
+#region-preface UL.primary LI.active:first-child A
+{
+	/*[disabled]display:none;*/
+}
+#region-preface UL.primary LI.active
+{
+	/*[disabled]display:none;*/
+}
+#region-preface UL.primary LI A
+{
+	/*[disabled]padding:0.4em 0.8em 0.3em;*/
+	/*[disabled]margin:0;*/
+	/*[disabled]background:#FFF;*/
+	/*[disabled]border:1px solid #CCC;*/
+	/*[disabled]border-radius:2px;*/
+}
+#region-preface UL.primary LI A:hover
+{
+	/*[disabled]background:#F6F6F6;*/
+	/*[disabled]border:1px solid #999;*/
+}

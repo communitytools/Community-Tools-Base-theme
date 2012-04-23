@@ -12,7 +12,30 @@
  */
 
  /*
-function ct_info_preprocess(&$vars) {
+function cmtls_base_preprocess(&$vars) {
     //dpm($vars);
 }
  */
+
+/**
+  * Change submit button html
+  * Based on http://drupal.org/node/19855
+  */
+/*
+function cmtls_base_theme(&$existing, $type, $theme, $path) {
+  $hooks['user_login_block'] = array(
+    'template' => 'templates/user_login',
+    'render element' => 'form',
+    // other theme registration code...
+  );
+  
+  return $hooks;
+}
+
+function cmtls_base_preprocess_user_login_block(&$variables) {
+  $variables['form']['actions']['submit']['#prefix'] = '<span class="form-submit">';
+  $variables['form']['actions']['submit']['#sufix'] = '</sufix>';
+  $variables['rendered'] = drupal_render_children($variables['form']);
+}
+
+*/

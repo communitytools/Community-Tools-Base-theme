@@ -1,0 +1,8 @@
+/*[fmt]1A20-1A0A-B*/
+/*Temporary css for choosing colors. THis should happen programmatically (from module?).*/
+a, #block-menu-menu-cmtls-global-toolbar a.active-trail {
+  color: #1C85D5;
+}
+button, input[type="reset"], input[type="submit"], input[type="button"], #tabs ul.primary a, #block-user-login span.form-submit, #block-user-login .toboggan-login-link, .cmtls-tabs a, a.media-gallery-add {
+  background-color: #1C85D5;
+}

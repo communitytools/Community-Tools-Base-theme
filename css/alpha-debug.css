@@ -1,0 +1,45 @@
+/*** ALPHA DEBUG STYLES ******************************************************************/
+
+.alpha-region-debug .alpha-debug-block {
+	padding: 0;
+	border: none;
+	border-bottom: 1px solid #C5A95F;
+	margin: -0.35em 0 0.35em 0;
+	background: none;
+}
+
+	.alpha-region-debug .alpha-debug-block h2 {
+		font-size: 8px !important;
+		color: #fff;
+		background: #C5A95F;
+		padding: 2px 20px 2px 4px !important;
+		margin: 0 !important;
+		text-transform: uppercase;
+		display: inline-block !important;
+		vertical-align: bottom !important;
+		text-shadow: none !important;
+		line-height: 100% !important;
+		border: none !important;
+	}
+
+	.alpha-region-debug .alpha-debug-block p {
+		font-size: 55%;
+		color: #888;
+	}
+
+	.alpha-region-debug .region:hover .alpha-debug-block {
+		border: none;
+		border-bottom: 1px solid #C5A95F;
+		background: none;
+	}
+
+	.alpha-region-debug .region:hover .alpha-debug-block p {
+		display: none !important;
+	}
+
+
+/*** ALPHA-RESIZE stuff in right bottom corner  **********************************************/
+
+.alpha-resize-indicator {
+	display: none;
+}

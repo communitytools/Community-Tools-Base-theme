@@ -1,0 +1,315 @@
+/*[fmt]1A20-1A0B-E64*/
+/*See fail on ajutiselt development ajaks
+------------------------------------*\
+$HEADER
+/*------------------------------------
+=== $DELTA-BLOCKS-PAGE-TITLE ===*/
+#block-delta-blocks-page-title {
+}
+
+/*=== $DELTA-BLOCKS-SITE-NAME ===*/
+#block-delta-blocks-site-name {
+}
+
+/*=== $DELTA-BLOCKS-SITE-SLOGAN ===*/
+#block-delta-blocks-site-slogan {
+}
+
+/*=== $SYSTEM-USER-MENU ===*/
+#block-system-user-menu {
+}
+
+/*=== $MENU-MENU-CMTLS-GLOBAL-TOOLBAR ===*/
+#block-menu-menu-cmtls-global-toolbar {
+}
+
+/*=== $SEARCH-FORM ===*/
+#block-search-form {
+}
+
+/*=== $USER-LOGIN ===*/
+#block-user-login {
+}
+
+/*=== $SYSTEM-MAIN-MENU ===*/
+#block-system-main-menu {
+}
+
+/*------------------------------------*\
+$CONTENT
+/*------------------------------------
+=== $VIEWS-529099A455B0FA960718B1AF2E03CAE6 ( some content list ) ===*/
+#block-views-529099a455b0fa960718b1af2e03cae6 {
+}
+
+#block-views-529099a455b0fa960718b1af2e03cae6 .views-row {
+  /*[disabled]padding-bottom:15px;*/
+}
+
+#block-views-529099a455b0fa960718b1af2e03cae6 h2 {
+  /*[disabled]font-weight:normal;*/
+  /*[disabled]font-size:20px;*/
+  /*[disabled]font-family:Museo500;*/
+  /*[disabled]padding-bottom:5px;*/
+}
+
+#block-views-529099a455b0fa960718b1af2e03cae6 h2 a {
+  /*[disabled]color:#303030;*/
+}
+
+#block-views-529099a455b0fa960718b1af2e03cae6 .field-name-body {
+  /*[disabled]font-size:12px;*/
+}
+
+#block-views-529099a455b0fa960718b1af2e03cae6 .field-type-taxonomy-term-reference {
+  /*[disabled]font-size:12px;*/
+}
+
+#block-views-529099a455b0fa960718b1af2e03cae6 .field-name-field-cmtls-tags .field-item {
+  /*[disabled]padding-left:4px;*/
+}
+
+/*===$VIEWS-E77B8B5723833505A9050CA84E36015C (latest members) ===*/
+#block-views-e77b8b5723833505a9050ca84e36015c {
+}
+
+/*------------------------------------*\
+$BLOCK-1
+/*------------------------------------*/
+#block-block-1 {
+}
+
+/*------------------------------------*\
+$CALENDAR-CALENDAR-LEGEND
+/*------------------------------------*/
+#block-calendar-calendar-legend {
+}
+
+/*------------------------------------*\
+$COMMENT-RECENT
+/*------------------------------------*/
+#block-comment-recent {
+}
+
+/*------------------------------------*\
+$CONTEXT-UI-EDITOR
+/*------------------------------------*/
+#block-context-ui-editor {
+}
+
+/*------------------------------------*\
+$DELTA-BLOCKS-ACTION-LINKS
+*------------------------------------*/
+#block-delta-blocks-action-links {
+}
+
+/*------------------------------------*\
+$DELTA-BLOCKS-BRANDING
+*------------------------------------*/
+#block-delta-blocks-branding {
+}
+
+/*------------------------------------*\
+$DELTA-BLOCKS-BREADCRUMB
+*------------------------------------*/
+#block-delta-blocks-breadcrumb {
+}
+
+/*------------------------------------*\
+$DELTA-BLOCKS-FEED-ICONS
+*------------------------------------*/
+#block-delta-blocks-feed-icons {
+}
+
+/*------------------------------------*\
+$DELTA-BLOCKS-LOGO
+*------------------------------------*/
+#block-delta-blocks-logo {
+}
+
+/*------------------------------------*\
+$DELTA-BLOCKS-MESSAGES
+*------------------------------------*/
+#block-delta-blocks-messages {
+}
+
+/*------------------------------------*\
+$DELTA-BLOCKS-TABS
+*------------------------------------*/
+#block-delta-blocks-tabs {
+}
+
+/*------------------------------------*\
+$GMAP-LOCATION-0
+*------------------------------------*/
+#block-gmap-location-0 {
+}
+
+/*------------------------------------*\
+$GMAP-LOCATION-1
+*------------------------------------*/
+#block-gmap-location-1 {
+}
+
+/*------------------------------------*\
+$MENU-MENU-CMTLS-GROUPS
+/*------------------------------------*/
+#block-menu-menu-cmtls-groups {
+}
+
+/*------------------------------------*\
+$NODE-RECENT
+/*------------------------------------*/
+#block-node-recent {
+}
+
+/*------------------------------------*\
+$NODE-SYNDICATE
+/*------------------------------------*/
+#block-node-syndicate {
+}
+
+/*------------------------------------*\
+$SHORTCUT-SHORTCUTS
+*------------------------------------*/
+#block-shortcut-shortcuts {
+}
+
+/*------------------------------------*\
+$SYSTEM-HELP
+*------------------------------------*/
+#block-system-help {
+}
+
+/*------------------------------------*\
+$SYSTEM-MAIN
+*------------------------------------*/
+#block-system-main {
+}
+
+/*------------------------------------*\
+$SYSTEM-MANAGEMENT
+*------------------------------------*/
+#block-system-management {
+}
+
+/*------------------------------------*\
+$SYSTEM-NAVIGATION
+*------------------------------------*/
+#block-system-navigation {
+}
+
+/*------------------------------------*\
+$SYSTEM-POWERED-BY
+*------------------------------------*/
+#block-system-powered-by {
+}
+
+/*------------------------------------*\
+$USER-NEW
+*------------------------------------*/
+#block-user-new {
+}
+
+/*------------------------------------*\
+$USER-ONLINE
+*------------------------------------*/
+#block-user-online {
+}
+
+/*------------------------------------*\
+$VIEWS-3EDF64118ACC6553A9F6254863DBE98D
+*------------------------------------*/
+#block-views-3edf64118acc6553a9f6254863dbe98d {
+}
+
+/*------------------------------------*\
+$VIEWS-46D8ED88F8CFDC87B69F60AC1C127427
+*------------------------------------*/
+#block-views-46d8ed88f8cfdc87b69f60ac1c127427 {
+}
+
+/*------------------------------------*\
+$VIEWS-53E22D565FC4333E016372C7C33E1BFC
+*------------------------------------*/
+#block-views-53e22d565fc4333e016372c7c33e1bfc {
+}
+
+/*------------------------------------*\
+$VIEWS-70E4FF6F0B0B36BD4A7FF6E634319A80
+*------------------------------------*/
+#block-views-70e4ff6f0b0b36bd4a7ff6e634319a80 {
+}
+
+/*------------------------------------*\
+$VIEWS-CAE116B1FF5D6F9BD7D8273350BE03DF
+*------------------------------------*/
+#block-views-cae116b1ff5d6f9bd7d8273350be03df {
+}
+
+/*------------------------------------*\
+$VIEWS-CALENDAR-BLOCK-1
+*------------------------------------*/
+#block-views-calendar-block-1 {
+}
+
+/*------------------------------------*\
+$VIEWS-CALENDAR-BLOCK-2
+*------------------------------------*/
+#block-views-calendar-block-2 {
+}
+
+/*------------------------------------*\
+$VIEWS-CB129C8A19431AE6B2FD1711646E2DE2
+*------------------------------------*/
+#block-views-cb129c8a19431ae6b2fd1711646e2de2 {
+}
+
+/*------------------------------------*\
+$VIEWS-CE0634C4243547633308BE501C27465F
+*------------------------------------*/
+#block-views-ce0634c4243547633308be501c27465f {
+}
+
+/*------------------------------------*\
+$VIEWS-CMTLS-MAP-BLOCK-1
+*------------------------------------*/
+#block-views-cmtls-map-block-1 {
+}
+
+/*------------------------------------*\
+$VIEWS-CMTLS-MEDIA-BLOCK
+*------------------------------------*/
+#block-views-cmtls-media-block {
+}
+
+/*------------------------------------*\
+$VIEWS-CMTLS-MEDIA-LOCATION-BLOCK
+*------------------------------------*/
+#block-views-cmtls-media-location-block {
+}
+
+/*------------------------------------*\
+$VIEWS-CMTLS-MEDIA-TAGS-BLOCK
+*------------------------------------*/
+#block-views-cmtls-media-tags-block {
+}
+
+/*------------------------------------*\
+$VIEWS-D3B739BE3A716E61B54F0C1254EEFD60
+*------------------------------------*/
+#block-views-d3b739be3a716e61b54f0c1254eefd60 {
+}
+
+/*------------------------------------*\
+$VIEWS-F500B4C1E20873481066A87EDCB14025
+*------------------------------------*/
+#block-views-f500b4c1e20873481066a87edcb14025 {
+}
+
+/*------------------------------------*\
+$VIEWS-OG-MEMBERS-BLOCK-1
+*------------------------------------*/
+#block-views-og-members-block-1 {
+}
+

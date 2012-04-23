@@ -1,42 +1,157 @@
-/* This file will hold styles that are loaded using the same media query as the narrow grid. */
+/*[fmt]1A20-1A0A-B*/
 
-body {
-	font-size: 15px;
+@import url(../fonts/fonts.css);
+
+button, input[type="reset"], input[type="submit"], input[type="button"] {
+  font-size: 13px;
+  line-height: 14px;
+  height: 14px;
 }
-
-
-
-/*** LEFT MENU *****************************************************************/
-/*
-#block-menu-block-2 {
-	padding: 1.2em;
-	border-radius: 5px 5px 5px 5px;
+h1, h2 {
+  font-family: Museo500, sans-serif;
 }
-
-	#block-menu-block-2 ul {
-		text-align: right;
-	}
-
-		#block-menu-block-2 ul li {
-			font-size: 120%;
-			margin-bottom: 5px;
-			padding-bottom: 5px;
-			list-style: none;
-			line-height: 115%;
-			display: list-item;
-		}
-
-			#block-menu-block-2 ul li.last {
-				border-bottom: none;
-			}
-
-			#block-menu-block-2 ul li a {
-				border: none;
-				opacity: 0.8;
-			}
-
-				#block-menu-block-2 ul li a.active {
-					font-weight: bold;
-					opacity: 1;
-				}
-*/
+#region-toolbar-second {
+  float: right;
+  width: auto;
+}
+h2.block-title {
+  padding-bottom: 0.3125em; /*[e](5/16) * 1em*/
+}
+#region-sidebar-second {
+  padding-top: 1.25em; /*[e](20/16) * 1em*/
+}
+/*------------------------------------*\
+$BLOCKS (GLOBAL)
+*------------------------------------*/
+#zone-toolbar .block, #region-preface .block {
+  float: left;
+}
+#region-sidebar-first .block, #region-content .block, #region-sidebar-second .block {
+  margin-bottom: 20px;
+}
+/*------------------------------------*\
+$LAYOUT
+*------------------------------------*/
+#section-content {
+  margin-top: -146px;
+}
+.region-preface-inner {
+  overflow: hidden;
+}
+/*------------------------------------*\
+$HEADER
+*------------------------------------*/
+#section-header {
+  background-image: url(../img/section-header-default.jpg);
+  height: 446px;
+}
+#region-preface, #zone-content {
+}
+#zone-preface-wrapper {
+  overflow: hidden;
+}
+#zone-preface {
+  padding-top: 20px;
+}
+#zone-preface, #zone-content, #zone-footer {
+  background-color: #FFF;
+  position: relative;
+  left: 50%;
+  width: 960px;
+  margin-left: -505px; /*[e]-(960+25+25)/2px*/
+  padding-left: 25px;
+  padding-right: 25px;
+}
+#region-header-first .region-header-first-inner {
+  background-color: #282423;
+  padding: 2.5em 1.25em 4em;
+  /*+box-shadow:0 1px 10px rgba(29, 29, 29, 0.5);*/
+  -moz-box-shadow: 0 1px 10px rgba(29, 29, 29, 0.5);
+  -webkit-box-shadow: 0 1px 10px rgba(29, 29, 29, 0.5);
+  -o-box-shadow: 0 1px 10px rgba(29, 29, 29, 0.5);
+  box-shadow: 0 1px 10px rgba(29, 29, 29, 0.5);
+  float: left;
+  margin-top: -43px;
+}
+/*=== $SYSTEM-MAIN-MENU ===*/
+#block-system-main-menu {
+  background-image: url(../img/block-system-main-menu.png);
+}
+#block-system-main-menu h2 {
+  display: none;
+}
+#block-system-main-menu .content ul {
+  list-style-type: none;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#block-system-main-menu .content li {
+  float: left;
+  margin: 0px;
+  padding: 0 15px;
+  list-style-image: none;
+  list-style-type: none;
+  border: 0;
+}
+#block-system-main-menu .content a {
+  display: block;
+  color: #BCAF95;
+  /*+text-shadow:0 1px rgba(0, 0, 0, 0.3);*/
+  -moz-text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+  -webkit-text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+  -o-text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+  text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 10px 0 12px;
+  margin-top: 5px;
+}
+#block-system-main-menu .content a:hover {
+  color: #FFF;
+}
+#block-system-main-menu .content li.active-trail a {
+  color: #FFF;
+  margin-top: 0;
+  border-top: 5px solid #1C85D5;
+}
+/*------------------------------------*\
+$FOOTER
+*------------------------------------*/
+#zone-footer h2 {
+  font-size: 1.07692307692308em; /*[e](14/13) * 1em*/
+  padding-bottom: 6px;
+}
+#zone-footer-inner {
+  padding: 24px;
+}
+#zone-footer .region-inner {
+  padding: 20px 0;
+}
+.footer-links {
+  float: left;
+  padding-right: 20px;
+  width: 140px; /*[e]60*2+10*2px*/
+}
+.footer-links li {
+  padding-top: 3px;
+  padding-bottom: 5px;
+}
+#zone-footer a {
+  color: #6B6964;
+  line-height: 15px;
+  display: block;
+}
+/*=== $USER-LOGIN ===*/
+#block-user-login #toboggan-login {
+  right: 0;
+  top: 33px;
+  left: auto;
+}
+/*------------------------------------*\
+$CONTENT
+*------------------------------------
+=== BLOCK: DELTA-BLOCKS-BREADCRUMBS ===*/
+#block-delta-blocks-breadcrumb {
+  margin-top: -20px;
+}
