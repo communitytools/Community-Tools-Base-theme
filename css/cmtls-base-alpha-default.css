@@ -29,22 +29,18 @@ $BLOCKS (GLOBAL)
 #region-sidebar-first .block, #region-content .block, #region-sidebar-second .block {
   margin-bottom: 20px;
 }
-/*------------------------------------*\
-$LAYOUT
-*------------------------------------*/
+/*------------------------------------------------------------------------*\
+  $LAYOUT
+\*------------------------------------------------------------------------*/
 #section-content {
   margin-top: -146px;
 }
 .region-preface-inner {
   overflow: hidden;
 }
-/*------------------------------------*\
-$HEADER
-*------------------------------------*/
-#section-header {
-  background-image: url(../img/section-header-default.jpg);
-  height: 446px;
-}
+/*------------------------------------------------------------------------*\
+  $HEADER
+\*------------------------------------------------------------------------*/
 #region-preface, #zone-content {
 }
 #zone-preface-wrapper {
@@ -62,8 +58,12 @@ $HEADER
   padding-left: 25px;
   padding-right: 25px;
 }
+
+#region-preface-first {
+    width: auto;
+}
+
 #region-header-first .region-header-first-inner {
-  background-color: #282423;
   padding: 2.5em 1.25em 4em;
   /*+box-shadow:0 1px 10px rgba(29, 29, 29, 0.5);*/
   -moz-box-shadow: 0 1px 10px rgba(29, 29, 29, 0.5);
@@ -110,14 +110,14 @@ $HEADER
 #block-system-main-menu .content a:hover {
   color: #FFF;
 }
-#block-system-main-menu .content li.active-trail a {
+#block-system-main-menu .content li a.active-trail,
+#block-system-main-menu .content li a.active {
   color: #FFF;
   margin-top: 0;
-  border-top: 5px solid #1C85D5;
 }
-/*------------------------------------*\
-$FOOTER
-*------------------------------------*/
+/*------------------------------------------------------------------------*\
+  $FOOTER
+\*------------------------------------------------------------------------*/
 #zone-footer h2 {
   font-size: 1.07692307692308em; /*[e](14/13) * 1em*/
   padding-bottom: 6px;
@@ -148,10 +148,15 @@ $FOOTER
   top: 33px;
   left: auto;
 }
-/*------------------------------------*\
-$CONTENT
-*------------------------------------
+/*------------------------------------------------------------------------*\
+  $CONTENT
+\*------------------------------------------------------------------------*/
 === BLOCK: DELTA-BLOCKS-BREADCRUMBS ===*/
 #block-delta-blocks-breadcrumb {
   margin-top: -20px;
+}
+.view-cmtls-applications {
+  font-family: Museo300, sans-serif;
+  font-weight: normal;
+  font-size: 1.69231em;
 }
