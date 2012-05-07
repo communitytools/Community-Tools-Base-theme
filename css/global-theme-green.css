@@ -4,6 +4,11 @@
   #1C85D5 - blue
   #282423 - brown
 
+  #163D0E - dark green
+  #3C8A2E - light green
+  #FF5C00 - orange
+
+
 */
 
 /* Header */
@@ -15,31 +20,31 @@
 /* Backgrounds */
 #section-header,
 #region-header-first .region-header-first-inner {
-  background-color: #282423; /* Brown */
+  background-color: #163D0E;
 }
 
 button, input[type="reset"], input[type="submit"], input[type="button"], #tabs ul.primary a, #block-user-login span.form-submit, #block-user-login .toboggan-login-link, .cmtls-tabs a, a.media-gallery-add {
-  background-color: #1C85D5; /* Blue */
+  background-color: #3C8A2E;
 }
 
 /* Link colours */
 a,
 #block-menu-menu-cmtls-global-toolbar a.active-trail {
-  color: #1C85D5; /* Blue */
+  color: #3C8A2E;
 }
 
 /* Login page */
 .toboggan-unified #login-links a.lt-active,
 .toboggan-unified #login-links #login-link:after {
-    color: #282423; /* Brown */
+    color: #3C8A2E;
 }
 
 /* Main menu */
 #block-system-main-menu .content li a.active-trail,
 #block-system-main-menu .content li a.active {
-  border-top: 5px solid #1C85D5; /* Blue */
+  border-top: 5px solid #3C8A2E;
 }
 
 #block-system-main-menu .content li {
-  border-bottom: 1px solid #282423; /* Brown */
+  border-bottom: 1px solid #282423; 
 }

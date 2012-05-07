@@ -1,6 +1,7 @@
 /*[fmt]1A20-1A2B-B*/
 
 @import url(global-theme-blue.css);
+/*@import url(global-theme-green.css);*/
 
 /*@import url(alpha-debug.css);*/
 body {
@@ -540,13 +541,20 @@ p {
 #zone-footer a {
   color: #6B6964;
   line-height: 15px;
-  display: block;
   }
+
+#zone-footer li {
+	margin-left: 0;
+}
+
+#zone-footer .block {
+	margin-bottom: 1em;
+}
 
 /*------------------------------------------------------------------------*\
   $CONTENT
 \*------------------------------------------------------------------------*/
-#section-content h2.block-title {
+#section-content h2.block-title, h2 {
   font-size: 22px;
   color: #303030;
   font-weight: normal;
@@ -705,9 +713,6 @@ p {
   padding-bottom: 0.4em; /*[e](8/20) * 1em*/
   }
 
-.view-cmtls-group .view-content .field-name-body, .node-cmtls-post .ds-content .field-name-body {
-  font-weight: bold;
-  }
 
 .view-cmtls-group .view-content .field-name-body p, .node-cmtls-post .ds-content .field-name-body p {
   margin: 0;
@@ -816,7 +821,6 @@ p {
   background-image: url(../img/geotag.png);
   overflow: hidden;
   text-indent: -10000px;
-  display: block;
   width: 8px;
   height: 12px;
   /*[disabled]margin-top:(4/12)*1em;*/ /*[e](4/12)*1em*/
@@ -832,6 +836,10 @@ p {
   padding-left: 0.833333333333333em; /*[e](10/12) * 1em*/
   position: static;
   }
+
+.ds-footer .field-name-field-cmtls-location .adr div {
+	display: inline;
+}
 
 /*=== MEDIA GALLERY ===*/
 .node-media-gallery {
@@ -939,3 +947,44 @@ p {
     display: inline;
 }
 
+
+
+/******** COMMENTS ****************/
+
+#comments {
+	font-size: 12px;
+}
+
+	.comment {
+		border-bottom: 1px solid  #ccc;
+		padding: 10px 0;
+	}
+
+		.comment:first-child {
+			border-top: 1px solid #ccc;
+		}
+
+		.comment .ds-left,
+		.comment a.username {
+			float: left;
+		}
+
+		.comment .ds-content {
+			overflow: hidden;
+		}
+
+		.comment .field-name-ds-user-picture {
+			margin-right: 10px;
+		}
+
+		.comment .field-name-post-date {
+			color: #777;
+		}
+
+		.comment a.username {
+			margin-right: 5px;
+			}
+
+	#comments h2.comment-form {
+		display: none;
+	}
