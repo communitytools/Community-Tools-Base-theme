@@ -114,19 +114,9 @@ Toolbar*/
   }
 
 /*=== BLOCK: DELTA-BLOCKS-SITE-NAME ===*/
-#block-delta-blocks-site-name {
-  /*+box-shadow:0 1px 10px rgba(29, 29, 29, 0.5);*/
-  -moz-box-shadow: 0 1px 10px rgba(29, 29, 29, 0.5);
-  -webkit-box-shadow: 0 1px 10px rgba(29, 29, 29, 0.5);
-  -o-box-shadow: 0 1px 10px rgba(29, 29, 29, 0.5);
-  box-shadow: 0 1px 10px rgba(29, 29, 29, 0.5);
-  }
 
-#block-delta-blocks-site-name .site-name, #block-delta-blocks-site-name .site-name a {
-  color: #FFF;
-  }
-
-#block-delta-blocks-site-name .site-name {
+#block-delta-blocks-site-name .site-name,
+#block-cmtls-cmtls-current-group h2 {
   font-family: Museo700;
   font-size: 2.30769230769231em; /*[e](30/13) * 1em*/
   line-height: 1em; /*[e](30/30) * 1em*/
@@ -139,11 +129,14 @@ Toolbar*/
   padding-bottom: 0.0333333333333333em; /*[e](1/30) * 1em*/
   }
 
-#block-delta-blocks-site-name .site-name a {
+#block-delta-blocks-site-name .site-name a,
+#block-cmtls-cmtls-current-group a {
+  color: #FFF;
   text-decoration: none;
   }
 
-#block-delta-blocks-site-name .site-name a:hover {
+#block-delta-blocks-site-name .site-name a:hover,
+#block-cmtls-cmtls-current-group a:hover {
   /*+opacity:80%;*/
   filter: alpha(opacity=80);
   -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
@@ -570,8 +563,7 @@ p {
 
 .cmtls-tabs {
   border: none;
-  margin: 25px 0 25px 32px;
-  padding: 15px 24px 15px 20px;
+  padding: 15px 0 15px 20px;
   border-left: 1px solid #DFDCD7;
   overflow: hidden;
   }
@@ -853,13 +845,9 @@ p {
   padding-bottom: 10px;
   }
 
-.media-gallery-item-wrapper img {
-  display: block;
-  }
 
 /*=== BLOCK: cmtls-applications ===*/
 #block-views-cmtls-applications-block {
-  overflow: hidden;
   margin-left: -6px;
   font-size: 1.1em;
   padding: 0 0 30px;

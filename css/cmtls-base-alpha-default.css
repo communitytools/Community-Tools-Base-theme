@@ -47,7 +47,7 @@ $BLOCKS (GLOBAL)
   overflow: hidden;
 }
 #zone-preface {
-  padding-top: 20px;
+  padding-top: 35px;
 }
 #zone-preface, #zone-content, #zone-footer {
   background-color: #FFF;
@@ -59,8 +59,21 @@ $BLOCKS (GLOBAL)
   padding-right: 25px;
 }
 
+/* override grid settings */
 #region-preface-first {
-    width: auto;
+  width: auto;
+  max-width: 620px;
+}
+
+/* override grid settings */
+#region-preface-second {
+  width: auto;
+  max-width: 300px;
+  float: right;
+}
+#region-preface-second .region-inner {
+  float: right;
+  text-align: right;
 }
 
 #region-header-first .region-header-first-inner {

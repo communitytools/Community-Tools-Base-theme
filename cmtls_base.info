@@ -6,6 +6,7 @@ screenshot = screenshot.png
 base theme = omega
 version = "7.x-2.0-alpha3"
 
+
 ; REQUIRED CORE REGIONS
 
 regions[page_top] = Page Top
@@ -61,6 +62,8 @@ zones[footer] = Footer
 css[global.css][name] = Your custom global styles
 css[global.css][description] = This file holds all the globally active custom CSS of your theme.
 css[global.css][options][weight] = 10
+
+stylesheets[all][] = css/colors.css
 
 ; OPTIONAL LIBRARIES
 

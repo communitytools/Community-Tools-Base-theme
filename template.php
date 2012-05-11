@@ -11,7 +11,24 @@
  * for more information on this topic.
  */
 
- /*
+
+function cmtls_base_process_html(&$variables) {
+  // Hook into color.module.
+  if (module_exists('color')) {
+    _color_html_alter($variables);
+  }
+}
+
+
+function cmtls_base_process_page(&$variables, $hook) {
+  // Hook into color.module.
+  if (module_exists('color')) {
+    _color_page_alter($variables);
+  }
+}
+
+
+/*
 function cmtls_base_preprocess(&$vars) {
     //dpm($vars);
 }
@@ -28,7 +45,7 @@ function cmtls_base_theme(&$existing, $type, $theme, $path) {
     'render element' => 'form',
     // other theme registration code...
   );
-  
+
   return $hooks;
 }
 
