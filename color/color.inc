@@ -4,25 +4,37 @@ $info = array();
 
 // Define the possible replaceable items and their labels.
 $info['fields'] = array(
-  'link' => t('Link color'),
-  'base' => t('Header background color'),
+  'base' => t('Header background'),
+  'text' => t('Main text'),
+  'link' => t('Links'),
+  'button' => t('Buttons'),
+  'footer' => t('Footer background'),
+  'footerlinks' => t('Footer links'),
 );
 
 // Color schemes for the site.
 $info['schemes'] = array(
   // Define the default scheme.
   'default' => array(
-    'title' => t('Brown (default)'),
+    'title' => t('Brown and blue (default)'),
     'colors' => array(
-      'link' => '#1C85D5',
-      'base' => '#282423',
+      'base' => '#282423', /* Header bg */
+      'text' => '#303030', /* Main text */
+      'link' => '#1C85D6', /* Links */
+      'button' => '#1C85D5', /* Buttons */
+      'footer' => '#EDEBEA', /* Footer bg */
+      'footerlinks' => '#6B6964', /* Footer links */
     ),
   ),
   'green' => array(
-    'title' => t('Green'),
+    'title' => t('Green and orange'),
     'colors' => array(
-      'link' => '#ffffff',
-      'base' => '#008CFF',
+      'base' => '#374537', /* Header bg */
+      'text' => '#303030', /* Main text */
+      'link' => '#b16145', /* Links */
+      'button' => '#ac5031', /* Buttons */
+      'footer' => '#EDEBEA', /* Footer bg */
+      'footerlinks' => '#6B6964', /* Footer links */
     ),
   ),
 );

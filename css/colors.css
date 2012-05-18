@@ -1,47 +1,74 @@
 /*[fmt]1A20-1A0A-B*/
 
-
-/* Header */
-#section-header {
-  background-image: url(../img/section-header-default.jpg); /* Header image */
-  height: 380px; /* Header height */
+/* Main text */
+body {
+    color: #303030;
 }
 
-/* Backgrounds */
+/* Header bg */
 #section-header,
 #region-header-first .region-header-first-inner {
-  background-color: #282423; /* Brown */
+  background-color: #282423;
 }
 
-button, input[type="reset"], input[type="submit"], input[type="button"], #tabs ul.primary a, #block-user-login span.form-submit, #block-user-login .toboggan-login-link, .cmtls-tabs a, a.media-gallery-add {
-  background-color: #1C85D5; /* Blue */
+/* Slogan */
+#block-delta-blocks-site-slogan {
+  color: #BFAC85;
 }
 
-/* Link colours */
+/* Buttons */
+button, input[type="reset"],
+input[type="submit"],
+input[type="button"],
+#tabs ul.primary a,
+#block-user-login span.form-submit,
+#block-user-login .toboggan-login-link,
+.cmtls-tabs a,
+a.media-gallery-add,
+.field-name-cmtls-group-subscription a {
+  background-color: #1C85D5;
+}
+
+/* Links colours */
 a,
 #block-menu-menu-cmtls-global-toolbar a.active-trail {
-  color: #1C85D5; /* Blue */
+  color: #1C85D6;
 }
 
 /* Login page */
 .toboggan-unified #login-links a.lt-active,
 .toboggan-unified #login-links #login-link:after {
-    color: #282423; /* Brown */
+    color: #282423;
 }
 
 /* Main menu */
 #block-system-main-menu .content li a.active-trail,
 #block-system-main-menu .content li a.active {
-  border-top: 5px solid #1C85D5; /* Blue */
+  border-top: 5px solid #1C85D6;
 }
 
+/* Footer */
+#zone-footer {
+  background-color: #EDEBEA !important;
+}
+#zone-footer a {
+  color: #6B6964;
+}
+
+/* tundub, et pole kasutusel
 #block-system-main-menu .content li {
-  border-bottom: 1px solid #282423; /* Brown */
+  border-bottom: 1px solid #282423;
 }
-
+*/
 
 /*******************************************************************
 * Color Module: Don't touch                                       *
 *******************************************************************/
 
 /* Anything below this is NOT replaced by Color module */
+
+/* Header */
+#section-header {
+  background-image: url(../img/section-header-default.jpg); /* Header image */
+  height: 380px; /* Header height */
+}

@@ -1,15 +1,12 @@
 /*[fmt]1A20-1A2B-B*/
 
-@import url(global-theme-blue.css);
-/*@import url(global-theme-green.css);*/
-
 /*@import url(alpha-debug.css);*/
+
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 /*18 / 13 = photoshopist tavalisel tekstil line-height on 18 ja fondi suurus 13, võiks ju ka lihtsalt 18px kirjutada*/
   font-size: 0.8125em; /*[e](13/16) * 1em*/
   line-height: 1.38461538461538em; /*[e](18/13) * 1em*/
-  color: #303030;
   }
 
   h1, #login-message {
@@ -146,7 +143,6 @@ Toolbar*/
 
 /*=== $DELTA-BLOCKS-SITE-SLOGAN ===*/
 #block-delta-blocks-site-slogan {
-  color: #BFAC85;
   padding-top: 0.25em;
   /*+text-shadow:0 1px rgba(0, 0, 0, 0.4);*/
   -moz-text-shadow: 0 1px rgba(0, 0, 0, 0.4);
@@ -503,7 +499,6 @@ p {
   $FOOTER
 \*------------------------------------------------------------------------*/
 #zone-footer {
-  background-color: #EDEBEA !important;
   margin-bottom: 0 !important;
   }
 
@@ -532,7 +527,6 @@ p {
   }
 
 #zone-footer a {
-  color: #6B6964;
   line-height: 15px;
   }
 
@@ -712,37 +706,6 @@ p {
 
 .ds-footer .field-items, .ds-footer .field-items a {
   color: #757575;
-  }
-
-.view-cmtls-group .view-content .field-name-cmtls-group-subscription a {
-  color: #FFF;
-  /*+text-shadow:0 1px rgba(0, 0, 0, 0.25);*/
-  -moz-text-shadow: 0 1px rgba(0, 0, 0, 0.25);
-  -webkit-text-shadow: 0 1px rgba(0, 0, 0, 0.25);
-  -o-text-shadow: 0 1px rgba(0, 0, 0, 0.25);
-  text-shadow: 0 1px rgba(0, 0, 0, 0.25);
-  font-weight: bold;
-  padding: 0.384615384615385em 0.769230769230769em 0.461538461538462em; /*[e](5/13) * 1em (10/13) * 1em (6/13) * 1em*/
-  background: #1482D1;
-  background: -moz-linear-gradient(top, #1482d1 0%, #38ade3 2px, #23a5e0 10%, #1482d1 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1482d1), color-stop(2px,#38ade3), color-stop(10%,#23a5e0), color-stop(100%,#1482d1));
-  background: -webkit-linear-gradient(top, #1482d1 0%,#38ade3 2px,#23a5e0 10%,#1482d1 100%);
-  background: -o-linear-gradient(top, #1482d1 0%,#38ade3 2px,#23a5e0 10%,#1482d1 100%);
-  background: -ms-linear-gradient(top, #1482d1 0%,#38ade3 2px,#23a5e0 10%,#1482d1 100%);
-  background: linear-gradient(top, #1482d1 0%,#38ade3 2px,#23a5e0 10%,#1482d1 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1482d1', endColorstr='#1482d1',GradientType=0 );
-  /*+border-radius:99px;*/
-  -moz-border-radius: 99px;
-  -webkit-border-radius: 99px;
-  -khtml-border-radius: 99px;
-  border-radius: 99px;
-  border-radius: 99px 99px 99px 99px;
-  text-decoration: none;
-  /*+box-shadow:0 1px 2px rgba(0, 0, 0, 0.2);*/
-  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-  -o-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   }
 
 .ds-footer .field {
@@ -976,3 +939,22 @@ p {
 	#comments h2.comment-form {
 		display: none;
 	}
+
+/******** "RISE" SOME CONTENT ELEMENTS ****************/
+
+/*
+#region-content .node-cmtls-post,
+#region-content .node-cmtls-event,
+#region-content .node-media-gallery,
+#region-content .node-cmtls-location,
+*/
+
+
+#region-content .views-row .node-cmtls-group,
+#region-content .user-profile {
+  -moz-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+}
