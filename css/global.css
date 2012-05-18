@@ -83,9 +83,11 @@ Toolbar*/
   background-position: 50% 0;
   }
 
+/*
 #zone-toolbar-wrapper {
-  background-image: url(../img/zone-toolbar-wrapper.png);
+  background-image: url(../img/black_transparent_60.png);
   }
+*/
 
 #zone-toolbar {
   padding: 7px 0;
@@ -113,7 +115,7 @@ Toolbar*/
 /*=== BLOCK: DELTA-BLOCKS-SITE-NAME ===*/
 
 #block-delta-blocks-site-name .site-name,
-#block-cmtls-cmtls-current-group h2 {
+#block-cmtls-cmtls-site-title h2 {
   font-family: Museo700;
   font-size: 2.30769230769231em; /*[e](30/13) * 1em*/
   line-height: 1em; /*[e](30/30) * 1em*/
@@ -127,13 +129,13 @@ Toolbar*/
   }
 
 #block-delta-blocks-site-name .site-name a,
-#block-cmtls-cmtls-current-group a {
+#block-cmtls-cmtls-site-title a {
   color: #FFF;
   text-decoration: none;
   }
 
 #block-delta-blocks-site-name .site-name a:hover,
-#block-cmtls-cmtls-current-group a:hover {
+#block-cmtls-cmtls-site-title a:hover {
   /*+opacity:80%;*/
   filter: alpha(opacity=80);
   -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
@@ -141,8 +143,8 @@ Toolbar*/
   opacity: 0.8;
   }
 
-/*=== $DELTA-BLOCKS-SITE-SLOGAN ===*/
-#block-delta-blocks-site-slogan {
+#block-delta-blocks-site-slogan,
+#block-cmtls-cmtls-site-slogan {
   padding-top: 0.25em;
   /*+text-shadow:0 1px rgba(0, 0, 0, 0.4);*/
   -moz-text-shadow: 0 1px rgba(0, 0, 0, 0.4);
@@ -152,7 +154,8 @@ Toolbar*/
   font-weight: normal;
   }
 
-#block-delta-blocks-site-slogan h6 {
+#block-delta-blocks-site-slogan h6,
+#block-cmtls-cmtls-site-slogan h6 {
   font-weight: normal;
   font-size: 1.46153846153846em; /*[e](19/13) * 1em*/
   }
@@ -400,21 +403,6 @@ Toolbar*/
   list-style-image: none;
   list-style-type: none;
   }
-
-#block-system-main-menu .content a {
-  display: block;
-  color: #303030;
-  font-weight: bold;
-  font-size: 14px;
-  text-decoration: none;
-  padding: 10px 0 12px;
-  margin-top: 5px;
-  }
-
-#block-system-main-menu .content a:hover {
-  color: #565656;
-  }
-
 
 .toboggan-unified #login-message {
     font-family: Museo500, sans-serif;
@@ -942,13 +930,6 @@ p {
 
 /******** "RISE" SOME CONTENT ELEMENTS ****************/
 
-/*
-#region-content .node-cmtls-post,
-#region-content .node-cmtls-event,
-#region-content .node-media-gallery,
-#region-content .node-cmtls-location,
-*/
-
 
 #region-content .views-row .node-cmtls-group,
 #region-content .user-profile {
@@ -957,4 +938,19 @@ p {
   -o-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.2);
   box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.2);
   padding: 15px;
+}
+
+/******** FORMS - SHOULD BE MOVED TO MODULE CSS PROBABLY ****************/
+
+/* Hide coordinats fields from location form. Maybe these should be tuned in form template instead. */
+#edit-field-cmtls-location .description,
+#edit-field-cmtls-location .form-item-field-cmtls-location-und-0-locpick-user-latitude,
+#edit-field-cmtls-location .form-item-field-cmtls-location-und-0-locpick-user-longitude,
+#edit-field-cmtls-location .location-current-coordinates-fieldset {
+	display: none;
+}
+
+/* Hide location name from Location nade form only. Should be visible on other forms for predefined location search */
+#cmtls-location-node-form .form-item-field-cmtls-location-und-0-name {
+	display: none;
 }

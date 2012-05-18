@@ -6,13 +6,13 @@ body {
 }
 
 /* Header bg */
-#section-header,
-#region-header-first .region-header-first-inner {
+#section-header {
   background-color: #282423;
 }
 
 /* Slogan */
-#block-delta-blocks-site-slogan {
+#block-delta-blocks-site-slogan,
+#block-cmtls-cmtls-site-slogan {
   color: #BFAC85;
 }
 
@@ -42,9 +42,18 @@ a,
 }
 
 /* Main menu */
+#block-system-main-menu .content a {
+  color: #fff;
+  opacity: 0.7;
+}
+#block-system-main-menu .content a:hover {
+  opacity: 1;
+}
+
 #block-system-main-menu .content li a.active-trail,
 #block-system-main-menu .content li a.active {
   border-top: 5px solid #1C85D6;
+  opacity: 1;
 }
 
 /* Footer */
@@ -71,4 +80,10 @@ a,
 #section-header {
   background-image: url(../img/section-header-default.jpg); /* Header image */
   height: 380px; /* Header height */
+}
+
+/* Logo, title and slogan area */
+#region-header-first .region-header-first-inner {
+  /* background-image: url(../img/black_transparent_60.png);*/
+  background-color: rgba(200,200,200,0.6);
 }

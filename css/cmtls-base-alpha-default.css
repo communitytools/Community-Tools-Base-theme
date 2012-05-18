@@ -88,7 +88,7 @@ $BLOCKS (GLOBAL)
 }
 /*=== $SYSTEM-MAIN-MENU ===*/
 #block-system-main-menu {
-  background-image: url(../img/block-system-main-menu.png);
+  background-image: url(../img/black_transparent_60.png);
 }
 #block-system-main-menu h2 {
   display: none;
@@ -108,7 +108,6 @@ $BLOCKS (GLOBAL)
 }
 #block-system-main-menu .content a {
   display: block;
-  color: #BCAF95;
   /*+text-shadow:0 1px rgba(0, 0, 0, 0.3);*/
   -moz-text-shadow: 0 1px rgba(0, 0, 0, 0.3);
   -webkit-text-shadow: 0 1px rgba(0, 0, 0, 0.3);
