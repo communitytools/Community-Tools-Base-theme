@@ -132,15 +132,18 @@ Toolbar*/
 #block-cmtls-cmtls-site-title a {
   color: #FFF;
   text-decoration: none;
+  filter: alpha(opacity=90);
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+  -moz-opacity: 0.9;
+  opacity: 0.9;
   }
 
 #block-delta-blocks-site-name .site-name a:hover,
 #block-cmtls-cmtls-site-title a:hover {
-  /*+opacity:80%;*/
-  filter: alpha(opacity=80);
-  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
-  -moz-opacity: 0.8;
-  opacity: 0.8;
+  filter: alpha(opacity=100);
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  -moz-opacity: 1;
+  opacity: 1;
   }
 
 #block-delta-blocks-site-slogan,
@@ -185,13 +188,15 @@ Toolbar*/
   -moz-text-shadow: 0 1px rgba(0, 0, 0, 0.4);
   -webkit-text-shadow: 0 1px rgba(0, 0, 0, 0.4);
   -o-text-shadow: 0 1px rgba(0, 0, 0, 0.4);
-  text-shadow: 0 1px rgba(0, 0, 0, 0.4);
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.4);
   display: block;
   padding-top: 4px;
   }
 
-#block-system-user-menu .menu a.active-trail {
-  }
+#block-system-user-menu .menu a:hover {
+	text-decoration: none;
+}
+
 
 /*=== BLOCK: MENU-MENU-CMTLS-GLOBAL-TOOLBAR ===*/
 #block-menu-menu-cmtls-global-toolbar {
@@ -312,7 +317,6 @@ Toolbar*/
   -webkit-text-shadow: 0 1px rgba(0, 0, 0, 0.45);
   -o-text-shadow: 0 1px rgba(0, 0, 0, 0.45);
   text-shadow: 0 1px rgba(0, 0, 0, 0.45);
-  background-color: #3A3534;
   position: absolute;
   padding: 1.7em;
   /*+border-radius:3px;*/
@@ -320,16 +324,11 @@ Toolbar*/
   -webkit-border-radius: 3px;
   -khtml-border-radius: 3px;
   border-radius: 3px;
-  border-radius: 3px 3px 3px 3px;
   width: 18em;
   left: 0;
   top: 33px;
   font-size: 10px;
   text-transform: uppercase;
-  }
-
-#block-user-login #toboggan-login label {
-  color: #C7B48C;
   }
 
 #block-user-login #toboggan-login input[type=text], #block-user-login #toboggan-login input[type=password] {
@@ -461,11 +460,6 @@ Toolbar*/
   /*[disabled]padding-top:1em;*/
   }
 
-/*Others
-Fix max-width 100% for Google Map*/
-.gmap img {
-  /*[disabled]max-width:none;*/
-  }
 
 img {
   /*[disabled]max-width:100%;*/
@@ -953,4 +947,14 @@ p {
 /* Hide location name from Location nade form only. Should be visible on other forms for predefined location search */
 #cmtls-location-node-form .form-item-field-cmtls-location-und-0-name {
 	display: none;
+}
+
+
+/********* GOOGLE MAP ******************/
+
+.gmap {
+  -moz-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px !important;
 }

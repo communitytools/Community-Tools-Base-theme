@@ -8,6 +8,7 @@ $info['fields'] = array(
   'text' => t('Main text'),
   'link' => t('Links'),
   'button' => t('Buttons'),
+  'slogan' => t('Slogan'),
   'footer' => t('Footer background'),
   'footerlinks' => t('Footer links'),
 );
@@ -22,19 +23,21 @@ $info['schemes'] = array(
       'text' => '#303030', /* Main text */
       'link' => '#1C85D6', /* Links */
       'button' => '#1C85D5', /* Buttons */
+      'slogan' => '#BFAC85', /* Slogan */
       'footer' => '#EDEBEA', /* Footer bg */
       'footerlinks' => '#6B6964', /* Footer links */
     ),
   ),
   'green' => array(
-    'title' => t('Green and orange'),
+    'title' => t('Blue and orange'),
     'colors' => array(
-      'base' => '#374537', /* Header bg */
+      'base' => '#113c48', /* Header bg */
       'text' => '#303030', /* Main text */
-      'link' => '#b16145', /* Links */
-      'button' => '#ac5031', /* Buttons */
-      'footer' => '#EDEBEA', /* Footer bg */
-      'footerlinks' => '#6B6964', /* Footer links */
+      'link' => '#de6705', /* Links */
+      'button' => '#ec710b', /* Buttons */
+      'slogan' => '#7191af', /* Slogan */
+      'footer' => '#dddde1', /* Footer bg */
+      'footerlinks' => '#70674f', /* Footer links */
     ),
   ),
 );
