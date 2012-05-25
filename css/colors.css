@@ -51,9 +51,10 @@ a,
   color: #1C85D6;
 }
 
-/* Login page */
+/* Active links on group tools menu, login/register page */
 .toboggan-unified #login-links a.lt-active,
-.toboggan-unified #login-links #login-link:after {
+.toboggan-unified #login-links #login-link:after,
+#block-views-cmtls-applications-block .active {
     color: #282423;
 }
 

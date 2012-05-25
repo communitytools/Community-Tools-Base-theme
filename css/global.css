@@ -791,6 +791,7 @@ p {
   }
 
 
+/********** GROUP TOOLS MENU  *********/
 /*=== BLOCK: cmtls-applications ===*/
 #block-views-cmtls-applications-block {
   margin-left: -6px;
@@ -816,6 +817,7 @@ p {
   /*[disabled]content:"•";*/
   /*[disabled]color:#808080;*/
   }
+
 
 /*=== CONTENT ===*/
 .content .field-name-body {
@@ -865,21 +867,36 @@ p {
   }
 
 
-/* new breadcrumbs */
-.view-id-cmtls_common_elements .views-field:after {
+/******** CMTLS BREADCRUMBS ****************/
+.view-display-id-cmtls_common_elements_breadcrumb .views-field:after {
     content: "»";
     margin: 0 2px;
+    color: #ccc;
 }
 
-	.view-id-cmtls_common_elements .views-field:last-child:after {
+	.view-display-id-cmtls_common_elements_breadcrumb .views-field a {
+	    color: #bbb;
+	}
+
+	.view-display-id-cmtls_common_elements_breadcrumb .views-field:last-child:after {
 	    content: none;
 	}
 
-/* post author */
-.view-id-cmtls_common_elements .views-field {
+
+/******** POST AUTHOR ****************/
+.view-display-id-cmtls_common_elements_date_author .views-field {
     display: inline;
 }
 
+.view-display-id-cmtls_common_elements_date_author .views-field:after {
+    content: "•";
+    margin: 0 2px;
+    color: #ccc;
+}
+
+	.view-display-id-cmtls_common_elements_date_author .views-field:last-child:after {
+		content: none;
+	}
 
 
 /******** COMMENTS ****************/
@@ -910,6 +927,11 @@ p {
 			margin-right: 10px;
 		}
 
+			.comment .field-name-ds-user-picture img {
+				height: 60px;
+				width: 60px;
+			}
+
 		.comment .field-name-post-date {
 			color: #777;
 		}
@@ -923,7 +945,6 @@ p {
 	}
 
 /******** "RISE" SOME CONTENT ELEMENTS ****************/
-
 
 #region-content .views-row .node-cmtls-group,
 #region-content .user-profile {
