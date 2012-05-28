@@ -1,0 +1,126 @@
+# $Id$
+#
+# Estonian translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  cmtls_base.info: n/a
+#  color/color.inc: n/a
+#  templates/html.tpl.php: n/a
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2012-05-25 16:25+0300\n"
+"PO-Revision-Date: 2012-05-25 16:25+0300\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Estonian <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: cmtls_base.info:0
+msgid "CT Base"
+msgstr ""
+
+#: cmtls_base.info:0
+msgid "Base theme for Community Tools websites"
+msgstr ""
+
+#: cmtls_base.info:0
+msgid "Page Top"
+msgstr ""
+
+#: cmtls_base.info:0
+msgid "Page Bottom"
+msgstr ""
+
+#: cmtls_base.info:0
+msgid "Content"
+msgstr "Sisu"
+
+#: cmtls_base.info:0
+msgid "Toolbar First"
+msgstr ""
+
+#: cmtls_base.info:0
+msgid "Toolbar Second"
+msgstr ""
+
+#: cmtls_base.info:0
+msgid "Menu"
+msgstr "Menüü"
+
+#: cmtls_base.info:0
+msgid "Sidebar First"
+msgstr ""
+
+#: cmtls_base.info:0
+msgid "Sidebar Second"
+msgstr ""
+
+#: cmtls_base.info:0
+msgid "Header First"
+msgstr ""
+
+#: cmtls_base.info:0
+msgid "Header Second"
+msgstr ""
+
+#: cmtls_base.info:0
+msgid "Preface First"
+msgstr ""
+
+#: cmtls_base.info:0
+msgid "Preface Second"
+msgstr ""
+
+#: cmtls_base.info:0
+msgid "Footer First"
+msgstr ""
+
+#: cmtls_base.info:0
+msgid "Footer Second"
+msgstr ""
+
+#: color/color.inc:7
+msgid "Header background"
+msgstr ""
+
+#: color/color.inc:8
+msgid "Main text"
+msgstr ""
+
+#: color/color.inc:9
+msgid "Links"
+msgstr "Lingid"
+
+#: color/color.inc:10
+msgid "Buttons"
+msgstr ""
+
+#: color/color.inc:11
+msgid "Slogan"
+msgstr "Tunnuslause"
+
+#: color/color.inc:12
+msgid "Footer background"
+msgstr "Jaluse taust"
+
+#: color/color.inc:13
+msgid "Footer links"
+msgstr ""
+
+#: color/color.inc:20
+msgid "Brown and blue (default)"
+msgstr ""
+
+#: color/color.inc:32
+msgid "Blue and orange"
+msgstr ""
+
+#: templates/html.tpl.php:20
+msgid "Skip to main content"
+msgstr "Liigu edasi põhisisu juurde"
+
