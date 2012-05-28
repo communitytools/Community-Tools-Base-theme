@@ -970,6 +970,15 @@ p {
 	display: none;
 }
 
+/* Throbbler for location lookup field */
+.ui-autocomplete-input {
+    background-image: url('../../../../../misc/throbber.gif');
+    background-position: 100% 8px;
+    background-repeat: no-repeat;
+}
+	.ui-autocomplete-loading {
+		background-position: 100% -13px;
+	}
 
 /********* GOOGLE MAP ******************/
 
