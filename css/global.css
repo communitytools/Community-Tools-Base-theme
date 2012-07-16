@@ -988,3 +988,9 @@ p {
   -webkit-border-radius: 4px;
   border-radius: 4px !important;
 }
+
+/********* FACEBOOK LOGIN ******************/
+/* Hide the progress bar appearing on top of the page by logintogobar module */
+#fb_js_pb {
+	display: none;
+}
