@@ -91,12 +91,14 @@ $BLOCKS (GLOBAL)
 #block-system-main-menu h2 {
   display: none;
 }
-#block-system-main-menu .content ul {
+#block-system-main-menu .content ul,
+ul.nice-menu ul {
   list-style-type: none;
   padding-left: 20px;
   padding-right: 20px;
 }
-#block-system-main-menu .content li {
+#block-system-main-menu .content li,
+ul.nice-menu li {
   float: left;
   margin: 0px;
   padding: 0 15px;
@@ -104,7 +106,8 @@ $BLOCKS (GLOBAL)
   list-style-type: none;
   border: 0;
 }
-#block-system-main-menu .content a {
+#block-system-main-menu .content a,
+ul.nice-menu a {
   display: block;
   /*+text-shadow:0 1px rgba(0, 0, 0, 0.3);*/
   -moz-text-shadow: 0 1px rgba(0, 0, 0, 0.3);
@@ -117,11 +120,14 @@ $BLOCKS (GLOBAL)
   padding: 10px 0 12px;
   margin-top: 5px;
 }
-#block-system-main-menu .content a:hover {
+#block-system-main-menu .content a:hover,
+ul.nice-menu a:hover {
   color: #FFF;
 }
 #block-system-main-menu .content li a.active-trail,
-#block-system-main-menu .content li a.active {
+#block-system-main-menu .content li a.active,
+ul.nice-menu a.active-trail,
+ul.nice-menu a.active {
   color: #FFF;
   margin-top: 0;
 }

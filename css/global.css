@@ -50,7 +50,6 @@ html.js input.form-autocomplete, html.js input.form-autocomplete {
 /*------------------------------------------------------------------------*\
   $LAYOUT
 \*------------------------------------------------------------------------*/
-Toolbar*/
 #zone-toolbar {
   /*[disabled]padding-top:1em;*/
   }
@@ -197,10 +196,7 @@ Toolbar*/
 	text-decoration: none;
 }
 
-
 /*=== BLOCK: MENU-MENU-CMTLS-GLOBAL-TOOLBAR ===*/
-#block-menu-menu-cmtls-global-toolbar {
-  }
 
 #block-menu-menu-cmtls-global-toolbar.contextual-links-region {
   padding-right: 25px;
@@ -380,14 +376,14 @@ Toolbar*/
   }
 
 /*=== BLOCK: SYSTEM-MAIN-MENU ===*/
-#block-system-main-menu {
-  }
 
-#block-system-main-menu h2 {
-  display: none;
-  }
+#region-menu {
+	position: relative;
+	z-index: 3;
+}
 
-#block-system-main-menu .content ul {
+#block-system-main-menu .content ul,
+ul.nice-menu ul {
   list-style-type: none;
   padding-left: 0;
   padding-right: 0;
@@ -396,11 +392,13 @@ Toolbar*/
   margin-top: 10px;
   }
 
-#block-system-main-menu .content li {
+#block-system-main-menu .content li,
+ul.nice-menu li {
   margin: 0px;
   padding: 0 0.9375em; /*[e]0 (15/16)*1em*/
   list-style-image: none;
   list-style-type: none;
+  background: none;
   }
 
 .toboggan-unified #login-message {
