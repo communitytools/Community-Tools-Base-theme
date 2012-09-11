@@ -1,5 +1,3 @@
-/*[fmt]1A20-1A0A-B*/
-
 @import url(../fonts/fonts.css);
 
 button, input[type="reset"], input[type="submit"], input[type="button"] {
@@ -10,44 +8,31 @@ button, input[type="reset"], input[type="submit"], input[type="button"] {
 h1, h2 {
   font-family: Museo500, sans-serif;
 }
+#region-toolbar-first {
+	min-height: 1px;
+}
 #region-toolbar-second {
-  float: right;
-  width: auto;
+  
 }
-h2.block-title {
-  padding-bottom: 0.3125em; /*[e](5/16) * 1em*/
-}
-#region-sidebar-second {
-  padding-top: 1.25em; /*[e](20/16) * 1em*/
-}
+
 /*------------------------------------*\
 $BLOCKS (GLOBAL)
 *------------------------------------*/
 #zone-toolbar .block, #region-preface .block {
   float: left;
 }
+#zone-toolbar #region-toolbar-second .block {
+	float: right;
+}
 #region-sidebar-first .block, #region-content .block, #region-sidebar-second .block {
   margin-bottom: 20px;
 }
+
 /*------------------------------------------------------------------------*\
   $LAYOUT
 \*------------------------------------------------------------------------*/
 #section-content {
   margin-top: -146px;
-}
-.region-preface-inner {
-  overflow: hidden;
-}
-/*------------------------------------------------------------------------*\
-  $HEADER
-\*------------------------------------------------------------------------*/
-#region-preface, #zone-content {
-}
-#zone-preface-wrapper {
-  overflow: hidden;
-}
-#zone-preface {
-  padding-top: 35px;
 }
 #zone-preface, #zone-content, #zone-footer {
   background-color: #FFF;
@@ -59,23 +44,20 @@ $BLOCKS (GLOBAL)
   padding-right: 25px;
 }
 
-/* override grid settings */
-#region-preface-first {
-  width: auto;
-  max-width: 620px;
+/*------------------------------------------------------------------------*\
+  $TOOLBAR
+\*------------------------------------------------------------------------*/
+/*=== $USER-LOGIN ===*/
+#block-user-login #toboggan-login {
+  position: absolute;
+  right: 0;
+  top: 33px;
+  left: auto;
 }
 
-/* override grid settings */
-#region-preface-second {
-  width: auto;
-  max-width: 300px;
-  float: right;
-}
-#region-preface-second .region-inner {
-  float: right;
-  text-align: right;
-}
-
+/*------------------------------------------------------------------------*\
+  $HEADER
+\*------------------------------------------------------------------------*/
 #region-header-first .region-header-first-inner {
   padding: 2.5em 2.5em 4em;
   /*+box-shadow:0 1px 10px rgba(29, 29, 29, 0.5);*/
@@ -87,50 +69,18 @@ $BLOCKS (GLOBAL)
   margin-top: -43px;
   max-width: 500px;
 }
-/*=== $SYSTEM-MAIN-MENU ===*/
-#block-system-main-menu h2 {
-  display: none;
+
+/*------------------------------------------------------------------------*\
+  $SIDEBAR-SECOND (front page)
+\*------------------------------------------------------------------------*/
+#region-sidebar-second {
+  padding-top: 1.25em; /*[e](20/16) * 1em*/
 }
-#block-system-main-menu .content ul,
-ul.nice-menu ul {
-  list-style-type: none;
-  padding-left: 20px;
-  padding-right: 20px;
+h2.block-title {
+  padding-bottom: 0.3125em; /*[e](5/16) * 1em*/
 }
-#block-system-main-menu .content li,
-ul.nice-menu li {
-  float: left;
-  margin: 0px;
-  padding: 0 15px;
-  list-style-image: none;
-  list-style-type: none;
-  border: 0;
-}
-#block-system-main-menu .content a,
-ul.nice-menu a {
-  display: block;
-  /*+text-shadow:0 1px rgba(0, 0, 0, 0.3);*/
-  -moz-text-shadow: 0 1px rgba(0, 0, 0, 0.3);
-  -webkit-text-shadow: 0 1px rgba(0, 0, 0, 0.3);
-  -o-text-shadow: 0 1px rgba(0, 0, 0, 0.3);
-  text-shadow: 0 1px rgba(0, 0, 0, 0.3);
-  font-weight: bold;
-  font-size: 14px;
-  text-decoration: none;
-  padding: 10px 0 12px;
-  margin-top: 5px;
-}
-#block-system-main-menu .content a:hover,
-ul.nice-menu a:hover {
-  color: #FFF;
-}
-#block-system-main-menu .content li a.active-trail,
-#block-system-main-menu .content li a.active,
-ul.nice-menu a.active-trail,
-ul.nice-menu a.active {
-  color: #FFF;
-  margin-top: 0;
-}
+
+
 /*------------------------------------------------------------------------*\
   $FOOTER
 \*------------------------------------------------------------------------*/
@@ -153,16 +103,29 @@ ul.nice-menu a.active {
   padding-top: 3px;
   padding-bottom: 5px;
 }
-/*=== $USER-LOGIN ===*/
-#block-user-login #toboggan-login {
-  right: 0;
-  top: 33px;
-  left: auto;
-}
+
 /*------------------------------------------------------------------------*\
   $CONTENT
 \*------------------------------------------------------------------------*/
-=== BLOCK: DELTA-BLOCKS-BREADCRUMBS ===*/
+
+
+/*=== ZONE: preface ===*/
+/*zone preface contains second level menu (homepage), breadcrumb, page title*/
+#zone-preface-wrapper {
+  overflow: hidden;
+}
+#zone-preface {
+  padding-top: 35px;
+}
+.region-preface-inner {
+  overflow: hidden;
+}
+#region-preface-second .region-inner {
+  float: right;
+  text-align: right;
+}
+
+/*=== BLOCK: DELTA-BLOCKS-BREADCRUMBS ===*/
 #block-delta-blocks-breadcrumb {
   margin-top: -20px;
 }
