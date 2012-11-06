@@ -12,7 +12,7 @@ h1, h2 {
 	min-height: 1px;
 }
 #region-toolbar-second {
-  
+
 }
 
 /*------------------------------------*\
@@ -34,8 +34,11 @@ $BLOCKS (GLOBAL)
 #section-content {
   margin-top: -146px;
 }
+#zone-preface, #zone-content {
+  background-color: #fff;
+}
+
 #zone-preface, #zone-content, #zone-footer {
-  background-color: #FFF;
   position: relative;
   left: 50%;
   width: 960px;
@@ -120,10 +123,6 @@ h2.block-title {
 .region-preface-inner {
   overflow: hidden;
 }
-#region-preface-second .region-inner {
-  float: right;
-  text-align: right;
-}
 
 /*=== BLOCK: DELTA-BLOCKS-BREADCRUMBS ===*/
 #block-delta-blocks-breadcrumb {
@@ -133,4 +132,5 @@ h2.block-title {
   font-family: Museo300, sans-serif;
   font-weight: normal;
   font-size: 1.69231em;
+  line-height: 1em;
 }

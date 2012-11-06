@@ -20,9 +20,9 @@ a:hover {
 html.js input.form-autocomplete, html.js input.form-autocomplete {
   background-position: 100% 8px;
 }
-.form-actions button, 
-.form-actions input[type="reset"], 
-.form-actions input[type="submit"], 
+.form-actions button,
+.form-actions input[type="reset"],
+.form-actions input[type="submit"],
 .form-actions input[type="button"] {
   margin-right: 0.769230769230769em; /*[e](10/13) * 1em*/
 }
@@ -130,7 +130,7 @@ html.js input.form-autocomplete, html.js input.form-autocomplete {
   text-transform: uppercase;
   z-index: 100;
 }
-#block-user-login #toboggan-login input[type=text], 
+#block-user-login #toboggan-login input[type=text],
 #block-user-login #toboggan-login input[type=password] {
   font-size: 12px;
 }
@@ -233,7 +233,7 @@ html.js input.form-autocomplete, html.js input.form-autocomplete {
 	text-decoration: none;
 }
 
-  
+
 /*------------------------------------------------------------------------*\
   $HEADER
 \*------------------------------------------------------------------------*/
@@ -246,7 +246,7 @@ html.js input.form-autocomplete, html.js input.form-autocomplete {
   padding-top: 1em;
   padding-bottom: 1em;
 }
-  
+
 /*=== BLOCK: logo ===*/
 #block-delta-blocks-logo {
   padding: 0.625em 0;
@@ -444,15 +444,63 @@ ul.nice-menu a.active {
   padding-bottom: 8px;
 }
 
-
-
-
 #section-content h2.block-title, h2 {
   font-size: 22px;
   color: #303030;
   font-weight: normal;
   line-height: 24px;
 }
+
+#region-preface-second .region-inner {
+  border-left: 1px solid #DFDCD7;
+}
+#block-cmtls-cmtls-subscribe {
+  padding: 15px 24px 10px 20px;
+}
+
+/*icon buttons for following thread (future: and reporting spam)*/
+#block-cmtls-cmtls-subscribe .flag-wrapper a,
+#block-cmtls-cmtls-subscribe .flag-wrapper .flagged, #block-cmtls-cmtls-subscribe .flag-wrapper  .unflag-action {
+  width: 0px;
+	padding: 0 0 0 24px;
+	height: 24px;
+	display: inline-block;
+	overflow: hidden;
+	background-image: url(../img/star-masked-ico.png);
+  background-position: 0 -48px;
+}
+#block-cmtls-cmtls-subscribe .flag-wrapper a:hover,
+#block-cmtls-cmtls-subscribe .flag-wrapper a:focus,
+#block-cmtls-cmtls-subscribe .flag-wrapper a:active {
+	background-position: 0 -24px;
+}
+#block-cmtls-cmtls-subscribe .flag-wrapper .flagged, #block-cmtls-cmtls-subscribe .flag-wrapper  .unflag-action {
+	background-position: 0 0;
+}
+/*#block-cmtls-cmtls-subscribe .flag-wrapper .flagged:hover, #block-cmtls-cmtls-subscribe .flag-wrapper .unflag-action:hover,
+#block-cmtls-cmtls-subscribe .flag-wrapper .flagged:focus, #block-cmtls-cmtls-subscribe .flag-wrapper .unflag-action:focus,
+#block-cmtls-cmtls-subscribe .flag-wrapper .flagged:active, #block-cmtls-cmtls-subscribe .flag-wrapper .unflag-action:active {
+	background-color: #c5c5c5;
+}*/
+.flag-message {
+  display: none;
+}
+/*button for reporting spam
+.flagbutton {
+	background-image: url(../img/flag-masked-ico.png);
+}
+.flagbutton {
+	background-color: #d6223f;
+}
+.flagbutton:hover,
+.flagbutton:focus,
+.flagbutton:active {
+	background-color: #fa163b;
+}*/
+
+
+
+
 #tabs ul.primary {
   border: none;
   margin: 25px 0 25px 32px;
@@ -462,8 +510,7 @@ ul.nice-menu a.active {
 }
 .cmtls-tabs {
   border: none;
-  padding: 15px 0 15px 20px;
-  border-left: 1px solid #DFDCD7;
+  padding: 0 0 15px 20px;
   overflow: hidden;
 }
 #tabs ul.primary li, .cmtls-tabs li {
@@ -678,7 +725,7 @@ ul.nice-menu a.active {
   font-size: 1.1em;
 }
 #block-views-cmtls-applications-block .views-row {
-  background: url(../img/block-cmtls-applications-block.png) no-repeat 100% 9px;
+  background: url(../img/block-cmtls-applications-block.png) no-repeat 100% 11px;
   float: left;
   padding-right: 10px;
   padding-left: 6px;
@@ -820,6 +867,21 @@ ul.nice-menu a.active {
 
 /******** FORMS - SHOULD BE MOVED TO MODULE CSS PROBABLY ****************/
 
+/* Hide menu and other advanced Drupal options from cmtls forms */
+.node-form .vertical-tabs {
+  display: none;
+}
+
+/* Hide text filter options from cmtls forms */
+.filter-wrapper {
+  display: none;
+}
+
+/* Hide advanced options from gallery form */
+#media-gallery-node-form #edit-settings-wrapper {
+  display: none;
+}
+
 /* Hide coordinats fields from location form. Maybe these should be tuned in form template instead. */
 #edit-field-cmtls-location .description,
 #edit-field-cmtls-location .form-item-field-cmtls-location-und-0-locpick-user-latitude,
@@ -844,7 +906,7 @@ ul.nice-menu a.active {
 	}
 
 /********* GOOGLE MAP ******************/
-
+/* Make Reigo happy */
 .gmap {
   -moz-border-radius: 4px;
   -khtml-border-radius: 4px;

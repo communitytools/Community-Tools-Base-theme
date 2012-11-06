@@ -13,10 +13,16 @@ body {
 /* Logo, title and slogan area */
 #region-header-first .region-header-first-inner,
 #block-system-main-menu,
-.block-nice-menus,
-
+.block-nice-menus {
+  background-color: #282423;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+  filter: alpha(opacity=90);
+  -moz-opacity: 0.9;
+  -khtml-opacity: 0.9;
+  opacity: 0.9;
+}
 ul.nice-menu-down li ul {
-  background: url(../img/bg-90.png) repeat;
+  background-color: #282423;
 }
 ul.nice-menu-down li,
 ul.nice-menu-down li.menuparent,
@@ -24,6 +30,7 @@ ul.nice-menu-down li.menuparent:hover,
 ul.nice-menu li ul li.menuparent,
 ul.nice-menu li ul li.menuparent:hover {
   background-color: transparent;
+
 }
 
 /* Slogan */
@@ -47,7 +54,8 @@ input[type="button"],
 #block-user-login .toboggan-login-link,
 .cmtls-tabs a,
 a.media-gallery-add,
-.field-name-cmtls-group-subscription a {
+.field-name-cmtls-group-subscription a,
+#block-cmtls-cmtls-subscribe .flag-wrapper  a {
   background-color: #1C85D5;
 }
 
@@ -83,7 +91,7 @@ ul.nice-menu ul a.active {
 
 /* Footer */
 #zone-footer {
-  background-color: #EDEBEA !important;
+  background-color: #EDEBEA;
 }
 #zone-footer a {
   color: #6B6964;
