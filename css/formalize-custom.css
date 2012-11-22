@@ -137,7 +137,7 @@ textarea, select[size], select[multiple] {
 /*Tweaks for Safari + Chrome.*/
 @media (-webkit-min-device-pixel-ratio: 0) {
   select   {
-    background-image: url(../images/select-arrow.gif);
+    background-image: url(../img/select-arrow.gif);
     background-repeat: no-repeat;
     background-position: right center;
     padding-right: 20px;
@@ -160,7 +160,7 @@ optgroup {
 }
 /*IE6*/
 .ie6-button, * html button {
-  background: #DDD url(../images/button.png) repeat-x;
+  background: #DDD url(../img/button.png) repeat-x;
   border: 1px solid #000000;
   border-color: #DDD #BBB #999;
   cursor: pointer;
