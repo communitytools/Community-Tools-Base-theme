@@ -460,7 +460,8 @@ ul.nice-menu a.active {
 
 /*icon buttons for following thread (future: and reporting spam)*/
 #block-cmtls-cmtls-subscribe .flag-wrapper a,
-#block-cmtls-cmtls-subscribe .flag-wrapper .flagged, #block-cmtls-cmtls-subscribe .flag-wrapper  .unflag-action {
+#block-cmtls-cmtls-subscribe .flag-wrapper .flagged, 
+#block-cmtls-cmtls-subscribe .flag-wrapper .unflag-action {
   width: 0px;
 	padding: 0 0 0 24px;
 	height: 24px;
@@ -474,7 +475,8 @@ ul.nice-menu a.active {
 #block-cmtls-cmtls-subscribe .flag-wrapper a:active {
 	background-position: 0 -24px;
 }
-#block-cmtls-cmtls-subscribe .flag-wrapper .flagged, #block-cmtls-cmtls-subscribe .flag-wrapper  .unflag-action {
+#block-cmtls-cmtls-subscribe .flag-wrapper .flagged, 
+#block-cmtls-cmtls-subscribe .flag-wrapper .unflag-action {
 	background-position: 0 0;
 }
 /*#block-cmtls-cmtls-subscribe .flag-wrapper .flagged:hover, #block-cmtls-cmtls-subscribe .flag-wrapper .unflag-action:hover,
@@ -497,9 +499,21 @@ ul.nice-menu a.active {
 .flagbutton:active {
 	background-color: #fa163b;
 }*/
-
-
-
+/*show text links in page-user page*/
+#block-cmtls-cmtls-subscribe .flag-wrapper.flag-cmtls-instant-notifications a,
+#block-cmtls-cmtls-subscribe .flag-wrapper.flag-cmtls-instant-notifications .flagged, 
+#block-cmtls-cmtls-subscribe .flag-wrapper.flag-cmtls-instant-notifications .unflag-action,
+#block-cmtls-cmtls-subscribe .flag-wrapper.flag-cmtls-daily-newsletter a,
+#block-cmtls-cmtls-subscribe .flag-wrapper.flag-cmtls-daily-newsletter .flagged, 
+#block-cmtls-cmtls-subscribe .flag-wrapper.flag-cmtls-daily-newsletter .unflag-action {
+  width: auto;
+	padding: 0;
+	height: auto;
+	display: inline;
+	overflow: hidden;
+	background-image: none;
+  background-color: transparent;
+}
 
 #tabs ul.primary {
   border: none;
