@@ -1,1 +1,27 @@
 /*This file will hold styles that are loaded using the same media query as the normal grid.*/
+
+/*=== MEDIA GALLERY ===*/
+
+/*big thumbnails*/
+.media-gallery-media-item-thumbnail-default a.media-gallery-thumb img {
+  height: auto;
+  width: auto;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.media-gallery-item-wrapper {
+  width: 100%;
+}
+.media-gallery-media-item-thumbnail-default .gallery-thumb-outer {
+  padding: 69px 0;
+}
+
+/*small thumbnails*/ 
+#region-content .media-gallery-media.mg-col-1 .field-item {
+  float: left;
+  margin: 0 17px 0 0;  
+}
+#region-content .media-gallery-media.mg-col-1 .field-item .field-item {
+  margin: 0;
+}
+  
