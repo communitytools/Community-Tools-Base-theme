@@ -329,9 +329,21 @@ html.js input.form-autocomplete, html.js input.form-autocomplete {
 #zone-footer li {
 	margin-left: 0;
 }
+#zone-footer #block-user-online li {
+  display: inline;
+}
+#zone-footer #block-user-online li:before {
+  display: inline;
+  content: ", ";
+}
+#zone-footer #block-user-online li:first-child:before {
+  display: inline;
+  content: "";
+}
 #zone-footer .block {
 	margin-bottom: 1em;
 }
+
 
 
 /*------------------------------------------------------------------------*\
