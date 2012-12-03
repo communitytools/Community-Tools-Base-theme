@@ -462,12 +462,28 @@ ul.nice-menu a.active {
   font-weight: normal;
   line-height: 24px;
 }
-
 #region-preface-second .region-inner {
   border-left: 1px solid #DFDCD7;
+  padding: 15px 24px 7px 20px;
+  float: left;
+  width: 100%;
 }
 #block-cmtls-cmtls-subscribe {
-  padding: 15px 24px 10px 20px;
+  padding: 4px 0 0;
+  margin: 0 -9px 0 0;
+  float: left;
+}
+#block-cmtls-cmtls-edit-buttons {
+  padding: 0;
+  float: left;
+}
+.page-user #block-cmtls-cmtls-subscribe,
+.page-user #block-cmtls-cmtls-edit-buttons {
+  float: none;
+}
+.page-user #block-cmtls-cmtls-edit-buttons .cmtls-tabs {
+  padding-left: 0;
+  padding-top: 15px;
 }
 
 /*icon buttons for following thread (future: and reporting spam)*/
