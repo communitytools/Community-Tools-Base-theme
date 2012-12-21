@@ -646,7 +646,11 @@ ul.nice-menu a.active {
 .view .view-content .views-row {
   padding-bottom: 1.66666666666667em; /*[e](20/12) * 1em*/
 }
-
+.views-field-field-cmtls-address .street-block div,
+.field-type-addressfield .street-block div {
+  display: inline;
+  margin: 0 0.2em 0 0;
+}
 
 /*=== VIEW: group ===*/
 .view-cmtls-group .view-filters {
