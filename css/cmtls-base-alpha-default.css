@@ -34,9 +34,6 @@ $BLOCKS (GLOBAL)
 #section-content {
   margin-top: -146px;
 }
-#zone-preface, #zone-content {
-  background-color: #fff;
-}
 
 #zone-preface, #zone-content, #zone-footer {
   position: relative;
