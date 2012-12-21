@@ -4,6 +4,7 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 0.8125em; /*[e](13/16) * 1em*/
   line-height: 1.38461538461538em; /*[e](18/13) * 1em*/
+  background: #f5f5f5;
 }
 input, textarea, button {
   font-family: inherit;
@@ -349,6 +350,9 @@ html.js input.form-autocomplete, html.js input.form-autocomplete {
 /*------------------------------------------------------------------------*\
   $CONTENT
 \*------------------------------------------------------------------------*/
+#zone-preface, #zone-content {
+  background-color: #fff;
+}
 #section-content {
   position: relative;
   z-index: 1;
@@ -718,11 +722,13 @@ ul.nice-menu a.active {
   color: #757575;
 }
 .ds-footer .field {
-  background: url(../img/view-cmtls-group-ds-footer-bullet.png) no-repeat 100% 8px;
-  padding-right: 15px;
+  background: url(../img/view-cmtls-group-ds-footer-bullet.png) no-repeat 0 8px;
+  padding-left: 15px;
 }
-.ds-footer .field:last-child {
-  background: transparent;
+.ds-footer .field.field-name-cmtls-location-indicator,
+.ds-footer .field:first-child {
+  background: none;
+  padding-left: 0;
 }
 .ds-footer .field-name-field-cmtls-location .adr {
   padding-left: 2px;
@@ -740,6 +746,13 @@ ul.nice-menu a.active {
   top: 2px;
   position: absolute;
 }
+.cmtls-location-indicator {
+  background: url(../img/geotag.png) no-repeat 0 3px;
+  overflow: hidden;
+  text-indent: -10000px;
+  width: 8px;
+  height: 18px;
+}
 .ds-footer .field-name-field-cmtls-location .adr .fn {
   background: transparent;
   text-indent: 0;
@@ -750,6 +763,14 @@ ul.nice-menu a.active {
 }
 .ds-footer .field-name-field-cmtls-location .adr div {
 	display: inline;
+}
+.ds-footer .field-name-field-cmtls-address div {
+  display: inline;
+  clear: none;
+  margin: 0 0.2em 0 0;
+}
+.ds-footer .addressfield-container-inline:after {
+  content: normal;
 }
 
 /*=== SEARCH PAGE (not a view) ===*/
