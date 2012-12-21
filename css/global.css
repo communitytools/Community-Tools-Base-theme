@@ -606,7 +606,6 @@ ul.nice-menu a.active {
 }
 .ds-content {
   overflow: hidden;
-  clear: both;
 }
 .ds-content h2 {
   font-weight: normal;
@@ -616,7 +615,6 @@ ul.nice-menu a.active {
 }
 .ds-footer {
   overflow: hidden;
-  clear: both;
 }
 .ds-footer .field, .ds-footer .field-item {
   float: left;
@@ -754,16 +752,13 @@ ul.nice-menu a.active {
 	display: inline;
 }
 
-/*=== SEARCH PAGE ===*/
+/*=== SEARCH PAGE (not a view) ===*/
 .page-search .node-cmtls-group {
   -moz-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.2);
   -o-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.2);
   box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.2);
   padding: 15px;
-}
-.page-search .ds-content {
-  clear: both;
 }
 .page-search .node-cmtls-group .ds-left {
   float: left;
@@ -919,7 +914,7 @@ ul.nice-menu a.active {
 				height: 60px;
 				width: 60px;
 			}
-      .view-mode-cmtls_teaser .ds-left {
+      .comment.view-mode-cmtls_teaser .ds-left {
         width: 70px;
       }
 
