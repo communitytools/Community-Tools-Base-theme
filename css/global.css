@@ -683,10 +683,7 @@ ul.nice-menu a.active {
 .ds-footer .field-items, .ds-footer .field-items a {
   color: #757575;
 }
-.ds-footer .field {
-  background: url(../img/view-cmtls-group-ds-footer-bullet.png) no-repeat 100% 8px;
-  padding-right: 15px;
-}
+
 /*=== VIEW: members (latest members) ===*/
 .view-cmtls-members .view-content .views-row {
   padding-bottom: 0.416666666666667em; /*[e](5/12) * 1em*/
@@ -721,15 +718,6 @@ ul.nice-menu a.active {
 .ds-footer .field-items, .ds-footer .field-items a {
   color: #757575;
 }
-.ds-footer .field {
-  background: url(../img/view-cmtls-group-ds-footer-bullet.png) no-repeat 0 8px;
-  padding-left: 15px;
-}
-.ds-footer .field.field-name-cmtls-location-indicator,
-.ds-footer .field:first-child {
-  background: none;
-  padding-left: 0;
-}
 .ds-footer .field-name-field-cmtls-location .adr {
   padding-left: 2px;
   position: relative;
@@ -745,6 +733,16 @@ ul.nice-menu a.active {
   /*[disabled]margin-top:(4/12)*1em;*/ /*[e](4/12)*1em*/
   top: 2px;
   position: absolute;
+}
+.ds-footer .field {
+  background: url(../img/view-cmtls-group-ds-footer-bullet.png) no-repeat 0 7px;
+  padding-left: 11px;
+  padding-right: 7px;
+}
+.ds-footer .field.field-name-cmtls-location-indicator,
+.ds-footer .field:first-child {
+  background: none;
+  padding-left: 0;
 }
 .cmtls-location-indicator {
   background: url(../img/geotag.png) no-repeat 0 3px;
