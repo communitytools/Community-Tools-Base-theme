@@ -651,7 +651,7 @@ ul.nice-menu a.active {
 .views-field-field-cmtls-address .street-block div,
 .field-type-addressfield .street-block div {
   display: inline;
-  margin: 0 0.2em 0 0;
+  margin: 0 0.4em 0 0;
 }
 
 /*=== VIEW: group ===*/
@@ -762,10 +762,13 @@ ul.nice-menu a.active {
 .ds-footer .field-name-field-cmtls-location .adr div {
 	display: inline;
 }
-.ds-footer .field-name-field-cmtls-address div {
+.ds-footer .field-name-field-cmtls-address  div {
   display: inline;
   clear: none;
-  margin: 0 0.2em 0 0;
+}
+.ds-footer .field-name-field-cmtls-address .street-block div,
+.ds-footer .field-name-field-cmtls-address .name-block div {
+  margin: 0 0.4em 0 0;
 }
 .ds-footer .addressfield-container-inline:after {
   content: normal;
