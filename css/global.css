@@ -1001,6 +1001,13 @@ ul.nice-menu a.active {
 	.ui-autocomplete-loading {
 		background-position: 100% -13px;
 	}
+  
+/* Hide hidden captcha */ 
+.comment-form .captcha.form-wrapper {
+  display: none;
+  visibility: hidden;
+}
+
 
 /********* GOOGLE MAP ******************/
 /* Make Reigo happy */
