@@ -3,24 +3,16 @@
 # Estonian translation of Drupal (general)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
-#  cmtls.api.inc: n/a
-#  cmtls.app.inc: n/a
-#  plugins/access/cmtls_app_type.inc: n/a
-#  cmtls.features.field.inc: n/a
-#  cmtls.features.inc: n/a
-#  cmtls.views_default.inc: n/a
-#  cmtls.context.inc: n/a
-#  cmtls.module: n/a
-#  cmtls.pages.inc: n/a
-#  cmtls.info: n/a
-#  plugins/views_handler_filter_cmtls_node_type.inc: n/a
+#  cmtls_base.info: n/a
+#  color/color.inc: n/a
+#  templates/html.tpl.php: n/a
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2013-01-07 16:01+0200\n"
-"PO-Revision-Date: 2013-01-07 16:01+0200\n"
+"POT-Creation-Date: 2013-01-07 16:00+0200\n"
+"PO-Revision-Date: 2013-01-07 16:00+0200\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Estonian <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
@@ -28,823 +20,107 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
-#: cmtls.api.inc:13;16
-msgid "Example"
+#: cmtls_base.info:0
+msgid "CT Base"
 msgstr ""
 
-#: cmtls.api.inc:14
-msgid "Example description"
+#: cmtls_base.info:0
+msgid "Base theme for Community Tools websites"
 msgstr ""
 
-#: cmtls.api.inc:31
-msgid "Example settings"
+#: cmtls_base.info:0
+msgid "Page Top"
 msgstr ""
 
-#: cmtls.api.inc:38
-msgid "Example field"
+#: cmtls_base.info:0
+msgid "Page Bottom"
 msgstr ""
 
-#: cmtls.app.inc:18 plugins/access/cmtls_app_type.inc:33
-msgid "Application type"
-msgstr ""
-
-#: cmtls.app.inc:19
-msgid "Community Tools application type"
-msgstr ""
-
-#: cmtls.app.inc:38
-msgid "Color must be in the HTML format #abcdef."
-msgstr ""
-
-#: cmtls.app.inc:63
-msgid "Default"
-msgstr "Vaikimisi"
-
-#: cmtls.app.inc:67
-msgid "CT address formatter"
-msgstr ""
-
-#: cmtls.app.inc:145 cmtls.features.field.inc:2467 cmtls.features.inc:365 cmtls.views_default.inc:4341 plugins/access/cmtls_app_type.inc:20
-msgid "Application"
-msgstr "Tööriist"
-
-#: cmtls.context.inc:34
-msgid "CT app"
-msgstr ""
-
-#: cmtls.context.inc:35
-msgid "Community Tools app page"
-msgstr ""
-
-#: cmtls.context.inc:67;93;126;159;198
-msgid "CT general"
-msgstr ""
-
-#: cmtls.context.inc:68
-msgid "Shows the app list block"
-msgstr ""
-
-#: cmtls.context.inc:94
-msgid "Group or app content type context for other contexts"
-msgstr ""
-
-#: cmtls.context.inc:127
-msgid "Sets the breadcrumb block for group content"
-msgstr ""
-
-#: cmtls.context.inc:160
-msgid "Sets the page title block"
-msgstr ""
-
-#: cmtls.context.inc:199
-msgid "Sets the buttons and follow blocks"
-msgstr ""
-
-#: cmtls.context.inc:252
-msgid "CT group"
-msgstr ""
-
-#: cmtls.context.inc:253
-msgid "Community Tools group page"
-msgstr ""
-
-#: cmtls.context.inc:300;350
-msgid "CT location"
-msgstr ""
-
-#: cmtls.context.inc:301
-msgid "Community Tools single location page"
-msgstr ""
-
-#: cmtls.context.inc:351
-msgid "Community Tools locations page"
-msgstr ""
-
-#: cmtls.context.inc:375
-msgid "CT user"
-msgstr ""
-
-#: cmtls.context.inc:376
-msgid "Sets the user page"
-msgstr ""
-
-#: cmtls.features.field.inc:2465
-msgid "Additional information, like homepage, skype etc"
-msgstr "Kodulehekülg, Skype konto, elulugu jms"
-
-#: cmtls.features.field.inc:2466 cmtls.views_default.inc:2659
-msgid "Address"
-msgstr "Aadress"
-
-#: cmtls.features.field.inc:2468
-msgid "Application configurations"
-msgstr "Tööriist"
-
-#: cmtls.features.field.inc:2469
-msgid "Attachments"
-msgstr "Manused"
-
-#: cmtls.features.field.inc:2470 cmtls.views_default.inc:1913
-msgid "Comment"
-msgstr "Kommentaar"
-
-#: cmtls.features.field.inc:2471
-msgid "Description"
-msgstr "Kirjeldus"
-
-#: cmtls.features.field.inc:2472
-msgid "Determine if this is an OG group."
-msgstr ""
-
-#: cmtls.features.field.inc:2473
-msgid "First name"
-msgstr "Eesnimi"
-
-#: cmtls.features.field.inc:2474 cmtls.features.inc:373 cmtls.views_default.inc:4340
-msgid "Group"
-msgstr "Grupp"
-
-#: cmtls.features.field.inc:2475
-msgid "Group content visibility"
-msgstr "Sisu nähtavus"
-
-#: cmtls.features.field.inc:2476
-msgid "Group roles and permissions"
-msgstr "Grupi rollid ja kasutajaõigused"
-
-#: cmtls.features.field.inc:2477
-msgid "Group visibility"
-msgstr "Grupi nähtavus"
-
-#: cmtls.features.field.inc:2478
-msgid "Groups audience"
-msgstr ""
-
-#: cmtls.features.field.inc:2479
-msgid "Header image"
-msgstr "Päise pilt"
-
-#: cmtls.features.field.inc:2480
-msgid "Indicates whether this is the main group of the Community Tools or not.\r\n  \r\n  NB! there should be only one main group"
-msgstr ""
-
-#: cmtls.features.field.inc:2483
-msgid "Last name"
-msgstr "Perekonnanimi"
-
-#: cmtls.features.field.inc:2484
-msgid "Legacy type"
-msgstr ""
-
-#: cmtls.features.field.inc:2485 cmtls.module:1091
-msgid "Main group"
-msgstr "Peagrupp"
-
-#: cmtls.features.field.inc:2486 cmtls.views_default.inc:2654
-msgid "Map"
-msgstr "Kaart"
-
-#: cmtls.features.field.inc:2487 cmtls.views_default.inc:2642
-msgid "Tags"
-msgstr "Sildid"
-
-#: cmtls.features.field.inc:2488
-msgid "This is used by migration from D6 version of CT"
-msgstr ""
-
-#: cmtls.features.inc:367
-msgid "Community Tools application"
-msgstr ""
-
-#: cmtls.features.inc:369;377;385 cmtls.views_default.inc:277;2958;3128;5518;5821;6118;6762;7059
-msgid "Title"
-msgstr "Pealkiri"
-
-#: cmtls.features.inc:375
-msgid "Community Tools group."
-msgstr ""
-
-#: cmtls.features.inc:381 cmtls.views_default.inc:2656;4351 cmtls.module:484
-msgid "Location"
-msgstr "Asukoht"
-
-#: cmtls.features.inc:383
-msgid "Community Tools locations"
-msgstr ""
-
-#: cmtls.pages.inc:84
-msgid "My subscriptions"
-msgstr ""
-
-#: cmtls.pages.inc:87
-msgid "Subscriptions for !username"
-msgstr ""
-
-#: cmtls.views_default.inc:265;375;605;880;1032;1389;1702;1906;2629;2945;3115;3339;4323;4562;4750;5028;5505;5808;6105;6262;6750;7046;7140
-msgid "Master"
-msgstr ""
-
-#: cmtls.views_default.inc:266
-msgid "Posts"
-msgstr "Postitused"
-
-#: cmtls.views_default.inc:267;377;606;881;1033;1390;1704;1907;2631;2946;3117;3340;4325;4563;4751;5030;5507;5809;6106;6264;6419;6597;6752;7047;7141
-msgid "more"
-msgstr "veel"
-
-#: cmtls.views_default.inc:268;378;607;882;1034;1391;1705;1908;2632;2947;3341;4326;4564;4752;5508;5810;6107;6265;6420;6598;6753;7048;7142
-msgid "Apply"
-msgstr "Rakenda"
-
-#: cmtls.views_default.inc:269;379;608;883;1035;1392;1706;1909;2633;2948;3119;3342;4327;4565;4753;5032;5509;5811;6108;6266;6421;6599;6754;7049;7143
-msgid "Reset"
-msgstr "Lähtesta"
-
-#: cmtls.views_default.inc:270;380;609;884;1036;1393;1707;1910;2634;2949;3120;3343;4328;4566;4754;5033;5510;5812;6109;6267;6422;6600;6755;7050;7144
-msgid "Sort by"
-msgstr "Sorteerimise alus"
-
-#: cmtls.views_default.inc:271;381;610;885;1037;1394;1708;1911;2635;2950;3121;3344;4329;4567;4755;5034;5511;5813;6110;6268;6423;6601;6756;7051;7145
-msgid "Asc"
-msgstr "Kasvav"
-
-#: cmtls.views_default.inc:272;382;611;886;1038;1395;1709;1912;2636;2951;3122;3345;4330;4568;4756;5035;5512;5814;6111;6269;6424;6602;6757;7052;7146
-msgid "Desc"
-msgstr "Kahanev"
-
-#: cmtls.views_default.inc:273;383;612;887;1039;1396;1714;2952;3350;4339;5516;5815;6112;6274;6759;7053
-msgid "OG membership from node"
-msgstr ""
-
-#: cmtls.views_default.inc:274;2953;3349;4344;5517;5816;6113;7054
-msgid "field_cmtls_application"
-msgstr ""
-
-#: cmtls.views_default.inc:275;613;888;1401;1713;2956;4569;5038;5819;6116;6273;6758;7057 cmtls.module:695
+#: cmtls_base.info:0
 msgid "Content"
 msgstr "Sisu"
 
-#: cmtls.views_default.inc:276;2957;5820;6117;7058
-msgid "Post date"
-msgstr "Postituse kuupäev"
-
-#: cmtls.views_default.inc:278;2959;5822;6119;7060
-msgid "Last comment time"
-msgstr "Viimase kommentaari aeg"
-
-#: cmtls.views_default.inc:279;384;614;890;1041;1402;1717;1914;2637;2960;3131;3357;4336;4761;5039;5521;5823;6120;6275;6432;6763;7061;7150
-msgid "All"
-msgstr "Kõik"
-
-#: cmtls.views_default.inc:376
-msgid "Applications settings"
-msgstr ""
-
-#: cmtls.views_default.inc:385
-msgid "CT Application settings page"
-msgstr ""
-
-#: cmtls.views_default.inc:889
-msgid "Nid"
-msgstr ""
-
-#: cmtls.views_default.inc:1040;1399
-msgid "<a href=\"[path]\" data-nid=\"[nid]\" class=\"cmtls-app-select-link\">[title]</a>"
-msgstr ""
-
-#: cmtls.views_default.inc:1042
-msgid "Applications list block"
-msgstr ""
-
-#: cmtls.views_default.inc:1397;2647;2954;4334;4757;5817;6114;6604;6760;7055
-msgid "flag"
-msgstr ""
-
-#: cmtls.views_default.inc:1398;2955;4335;4758;5818;6115;6761;7056
-msgid "Flag user"
-msgstr ""
-
-#: cmtls.views_default.inc:1400
-msgid "Name"
-msgstr "Nimi"
-
-#: cmtls.views_default.inc:1703;2648;3352;6751
-msgid "Comments"
-msgstr "Kommentaarid"
-
-#: cmtls.views_default.inc:1710;3123;3346;4331;5513;6270;6425;7147
-msgid "Items per page"
-msgstr "Kirjeid lehel"
-
-#: cmtls.views_default.inc:1711;3124;3347;4332;5514;6271;6426;7148
-msgid "- All -"
-msgstr "- Kõik -"
-
-#: cmtls.views_default.inc:1712;3125;3348;4333;5515;6272;6427;7149
-msgid "Offset"
-msgstr "Nihe"
-
-#: cmtls.views_default.inc:1715
-msgid "Member comments page"
-msgstr ""
-
-#: cmtls.views_default.inc:1716
-msgid "All comments posted in Community Tools groups by a member"
-msgstr ""
-
-#: cmtls.views_default.inc:1718;6276
-msgid "Comments by %1"
-msgstr ""
-
-#: cmtls.views_default.inc:1719
-msgid "Member recent comments block"
-msgstr ""
-
-#: cmtls.views_default.inc:1720
-msgid "Latest comments posted in Community Tools groups by a member"
-msgstr ""
-
-#: cmtls.views_default.inc:1721
-msgid "Group comments page"
-msgstr ""
-
-#: cmtls.views_default.inc:1722
-msgid "All comments in a group"
-msgstr ""
-
-#: cmtls.views_default.inc:1723;6764
-msgid "Comments in %1"
-msgstr ""
-
-#: cmtls.views_default.inc:1724
-msgid "Group recent comments block"
-msgstr ""
-
-#: cmtls.views_default.inc:1725
-msgid "Recent comments"
-msgstr "Viimased kommentaarid"
-
-#: cmtls.views_default.inc:1726
-msgid "Latest comments in a group block"
-msgstr ""
-
-#: cmtls.views_default.inc:1727
-msgid "In reply to"
-msgstr "Vastuseks"
-
-#: cmtls.views_default.inc:2630
-msgid "Element"
-msgstr ""
-
-#: cmtls.views_default.inc:2638
-msgid "Attachments block"
-msgstr "Manused"
-
-#: cmtls.views_default.inc:2639
-msgid "Files"
-msgstr "Failid"
-
-#: cmtls.views_default.inc:2640
-msgid "Node attachments"
-msgstr ""
-
-#: cmtls.views_default.inc:2641
-msgid "Tags block"
-msgstr "Sildid"
-
-#: cmtls.views_default.inc:2643
-msgid "Global Community Tools tags"
-msgstr ""
-
-#: cmtls.views_default.inc:2644
-msgid "Content block"
-msgstr ""
-
-#: cmtls.views_default.inc:2645
-msgid "Date and author block"
-msgstr ""
-
-#: cmtls.views_default.inc:2646;3351
-msgid "author"
-msgstr "autor"
-
-#: cmtls.views_default.inc:2649;3353
-msgid "."
-msgstr "."
-
-#: cmtls.views_default.inc:2650
-msgid "Breadcrumb"
-msgstr ""
-
-#: cmtls.views_default.inc:2651
-msgid "Flag spam block"
-msgstr ""
-
-#: cmtls.views_default.inc:2652
-msgid "Geometry OL"
-msgstr ""
-
-#: cmtls.views_default.inc:2653
-msgid "Geometry block data overlay"
-msgstr ""
-
-#: cmtls.views_default.inc:2655
-msgid "Geometry block"
-msgstr ""
-
-#: cmtls.views_default.inc:2657
-msgid "Displays the items geometry"
-msgstr ""
-
-#: cmtls.views_default.inc:2658
-msgid "Address attachment"
-msgstr ""
-
-#: cmtls.views_default.inc:2660
-msgid "The address for the geometry block"
-msgstr ""
-
-#: cmtls.views_default.inc:2661
-msgid "Comment count block"
-msgstr ""
-
-#: cmtls.views_default.inc:2662
-msgid "Path"
-msgstr "Tee"
-
-#: cmtls.views_default.inc:2663
-msgid "[path]"
-msgstr ""
-
-#: cmtls.views_default.inc:3116;5029
-msgid "Groups"
-msgstr "Grupid"
-
-#: cmtls.views_default.inc:3118;5031
-msgid "Search"
-msgstr "Otsing"
-
-#: cmtls.views_default.inc:3126;4759;5036
-msgid "node being the OG group"
-msgstr ""
-
-#: cmtls.views_default.inc:3127;5037
-msgid "OG membership from OG group"
-msgstr ""
-
-#: cmtls.views_default.inc:3129
-msgid "All groups page"
-msgstr ""
-
-#: cmtls.views_default.inc:3130
-msgid "My groups page"
-msgstr ""
-
-#: cmtls.views_default.inc:3354
-msgid ","
-msgstr ","
-
-#: cmtls.views_default.inc:3355
-msgid "Wall content"
-msgstr ""
-
-#: cmtls.views_default.inc:3356
-msgid "Community Tools group wall content"
-msgstr ""
-
-#: cmtls.views_default.inc:4324
-msgid "My group subscriptions"
-msgstr ""
-
-#: cmtls.views_default.inc:4337
-msgid "Application subscriptions"
+#: cmtls_base.info:0
+msgid "Toolbar First"
 msgstr ""
 
-#: cmtls.views_default.inc:4338
-msgid "My application subscriptions"
+#: cmtls_base.info:0
+msgid "Toolbar Second"
 msgstr ""
 
-#: cmtls.views_default.inc:4342
-msgid "Posts subscriptions"
-msgstr ""
-
-#: cmtls.views_default.inc:4343
-msgid "My posts subscriptions"
-msgstr ""
-
-#: cmtls.views_default.inc:4345
-msgid "Post"
-msgstr "Postitus"
-
-#: cmtls.views_default.inc:4346
-msgid "Events subscriptions"
-msgstr ""
-
-#: cmtls.views_default.inc:4347
-msgid "My events subscriptions"
-msgstr ""
-
-#: cmtls.views_default.inc:4348
-msgid "Event"
-msgstr "Sündmus"
-
-#: cmtls.views_default.inc:4349
-msgid "Locations subscriptions"
-msgstr ""
-
-#: cmtls.views_default.inc:4350
-msgid "My locations subscriptions"
-msgstr ""
-
-#: cmtls.views_default.inc:4352
-msgid "Media subscriptions"
-msgstr ""
-
-#: cmtls.views_default.inc:4353
-msgid "My media subscriptions"
-msgstr ""
-
-#: cmtls.views_default.inc:4354
-msgid "Media"
-msgstr "Meedia"
-
-#: cmtls.views_default.inc:4760
-msgid "OG group"
-msgstr ""
-
-#: cmtls.views_default.inc:5506 cmtls.module:481;482
-msgid "Locations"
-msgstr "Kohad"
-
-#: cmtls.views_default.inc:5519
-msgid "Application content block"
-msgstr ""
-
-#: cmtls.views_default.inc:5520
-msgid "Locations on the application page"
-msgstr ""
-
-#: cmtls.views_default.inc:5522
-msgid "Page map OL overlay"
-msgstr ""
-
-#: cmtls.views_default.inc:5523
-msgid "Application map block"
-msgstr ""
-
-#: cmtls.views_default.inc:5524
-msgid "Locations on map on the application page"
-msgstr ""
-
-#: cmtls.views_default.inc:5525
-msgid "Latitude"
-msgstr "Laiuskraad"
-
-#: cmtls.views_default.inc:5526
-msgid "Longitude"
-msgstr "Pikkuskraad"
-
-#: cmtls.views_default.inc:6263
-msgid "Posted comments"
-msgstr ""
-
-#: cmtls.views_default.inc:6277
-msgid "Posted comments page"
-msgstr ""
-
-#: cmtls.views_default.inc:6278
-msgid "All comments posted by a member"
-msgstr ""
-
-#: cmtls.views_default.inc:6279
-msgid "Posted comments block"
-msgstr ""
-
-#: cmtls.views_default.inc:6417;6596
-msgid "Defaults"
-msgstr "Vaikesätted"
-
-#: cmtls.views_default.inc:6418
-msgid "Members"
-msgstr ""
-
-#: cmtls.views_default.inc:6428;6603
-msgid "OG membership from user"
-msgstr ""
-
-#: cmtls.views_default.inc:6429
-msgid "Latest group members block"
-msgstr ""
+#: cmtls_base.info:0
+msgid "Menu"
+msgstr "Menüü"
 
-#: cmtls.views_default.inc:6430
-msgid "Latest members"
-msgstr "Hiljuti liitunud"
-
-#: cmtls.views_default.inc:6431
-msgid "The latest Community Tools group members"
-msgstr ""
-
-#: cmtls.views_default.inc:6433
-msgid "Group members page"
-msgstr ""
-
-#: cmtls.views_default.inc:6434
-msgid "Members of a specific group"
-msgstr ""
-
-#: cmtls.views_default.inc:6435
-msgid "Members of %1"
-msgstr ""
-
-#: cmtls.views_default.inc:6605
-msgid "User"
-msgstr "Kasutaja"
-
-#: cmtls.views_default.inc:7151
-msgid "%1"
-msgstr "%1"
-
-#: cmtls.views_default.inc:7152
-msgid "Tags page"
-msgstr ""
-
-#: cmtls.module:52
-msgid "Manage own subscriptions"
-msgstr ""
-
-#: cmtls.module:53
-msgid "Allow users to manage their own subscriptions"
-msgstr ""
-
-#: cmtls.module:91;990;1000
-msgid "Add"
-msgstr "Lisa"
-
-#: cmtls.module:98
-msgid "Add content"
-msgstr "Lisa sisu"
-
-#: cmtls.module:106
-msgid "Manage subscriptions"
-msgstr ""
-
-#: cmtls.module:107
-msgid "Manage CT subscriptions"
-msgstr ""
-
-#: cmtls.module:118
-msgid "Location matching"
-msgstr ""
-
-#: cmtls.module:143;978
-msgid "Add application"
-msgstr "Lisa tööriist"
-
-#: cmtls.module:386
-msgid "Sorting settings"
-msgstr "Järjestus"
-
-#: cmtls.module:397
-msgid "Sorting field"
-msgstr "Järjestuse väli"
-
-#: cmtls.module:400
-msgid "Created date"
-msgstr "Loomise kuupäev"
-
-#: cmtls.module:401
-msgid "Location title"
-msgstr ""
-
-#: cmtls.module:407
-msgid "Sorting order"
-msgstr "Järjekord"
-
-#: cmtls.module:410
-msgid "Ascending"
-msgstr "Kasvav"
-
-#: cmtls.module:411
-msgid "Descending"
-msgstr "Kahanev"
-
-#: cmtls.module:523 plugins/access/cmtls_app_type.inc:13
-msgid "CT Application type"
-msgstr ""
-
-#: cmtls.module:570
-msgid "!count members"
-msgstr "!count liiget"
-
-#: cmtls.module:607;621
-msgid "Leave"
-msgstr "Lahku"
-
-#: cmtls.module:633;644
-msgid "Join"
-msgstr "Liitu"
-
-#: cmtls.module:691
-msgid "Left column, content, footer, right column"
+#: cmtls_base.info:0
+msgid "Sidebar First"
 msgstr ""
 
-#: cmtls.module:694
-msgid "Left column"
+#: cmtls_base.info:0
+msgid "Sidebar Second"
 msgstr ""
 
-#: cmtls.module:696
-msgid "Footer"
-msgstr "Jalus"
-
-#: cmtls.module:697
-msgid "Right column"
+#: cmtls_base.info:0
+msgid "Header First"
 msgstr ""
 
-#: cmtls.module:806
-msgid "CT: buttons"
+#: cmtls_base.info:0
+msgid "Header Second"
 msgstr ""
 
-#: cmtls.module:812
-msgid "CT: site title"
+#: cmtls_base.info:0
+msgid "Preface First"
 msgstr ""
 
-#: cmtls.module:817
-msgid "CT: powered by"
+#: cmtls_base.info:0
+msgid "Preface Second"
 msgstr ""
 
-#: cmtls.module:822
-msgid "CT: site slogan"
+#: cmtls_base.info:0
+msgid "Footer First"
 msgstr ""
 
-#: cmtls.module:827
-msgid "CT: subscribe"
+#: cmtls_base.info:0
+msgid "Footer Second"
 msgstr ""
 
-#: cmtls.module:845
-msgid "Powered by <a href=\"@poweredby\">Community Tools</a>"
+#: color/color.inc:7
+msgid "Header background"
 msgstr ""
-
-#: cmtls.module:861
-msgid "Notifications"
-msgstr "Teavitused"
-
-#: cmtls.module:936
-msgid "Add group"
-msgstr "Lisa grupp"
 
-#: cmtls.module:940;946
-msgid "Edit"
-msgstr "Muuda"
-
-#: cmtls.module:968
-msgid "Group settings"
-msgstr "Grupi seaded"
-
-#: cmtls.module:969
-msgid "Apps settings"
-msgstr "Menüü seaded"
-
-#: cmtls.module:1094
-msgid "This is the main group"
+#: color/color.inc:8
+msgid "Main text"
 msgstr ""
 
-#: cmtls.info:0
-msgid "CT Core"
-msgstr ""
+#: color/color.inc:9
+msgid "Links"
+msgstr "Lingid"
 
-#: cmtls.info:0
-msgid "Community Tools groups, apps, locations, users, comments"
+#: color/color.inc:10
+msgid "Buttons"
 msgstr ""
 
-#: cmtls.info:0
-msgid "Community Tools"
-msgstr ""
+#: color/color.inc:11
+msgid "Slogan"
+msgstr "Tunnuslause"
 
-#: plugins/views_handler_filter_cmtls_node_type.inc:22
-msgid "CT: Groups and Applications"
-msgstr ""
+#: color/color.inc:12
+msgid "Footer background"
+msgstr "Jaluse taust"
 
-#: plugins/access/cmtls_app_type.inc:14
-msgid "Control access by CT app type."
+#: color/color.inc:13
+msgid "Footer links"
 msgstr ""
 
-#: plugins/access/cmtls_app_type.inc:36
-msgid "Only the checked app types will be valid."
+#: color/color.inc:20
+msgid "Brown and blue (default)"
 msgstr ""
 
-#: plugins/access/cmtls_app_type.inc:106
-msgid "@identifier is any node type"
+#: color/color.inc:32
+msgid "Blue and orange"
 msgstr ""
-
-#: plugins/access/cmtls_app_type.inc:112;118
-msgid "@identifier is type \"@types\""
-msgid_plural "@identifier type is one of \"@types\""
-msgstr[0] ""
-msgstr[1] ""
 
-#: plugins/access/cmtls_app_type.inc:114
-msgid "Missing/ deleted type \"@types\""
-msgid_plural "Missing/ deleted type is one of \"@types\""
-msgstr[0] ""
-msgstr[1] ""
+#: templates/html.tpl.php:20
+msgid "Skip to main content"
+msgstr "Liigu edasi põhisisu juurde"
 
