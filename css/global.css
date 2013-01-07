@@ -492,7 +492,7 @@ ul.nice-menu a.active {
 
 /*icon buttons for following thread (future: and reporting spam)*/
 #block-cmtls-cmtls-subscribe .flag-wrapper a,
-#block-cmtls-cmtls-subscribe .flag-wrapper .flagged, 
+#block-cmtls-cmtls-subscribe .flag-wrapper .flagged,
 #block-cmtls-cmtls-subscribe .flag-wrapper .unflag-action {
   width: 0px;
 	padding: 0 0 0 24px;
@@ -507,7 +507,7 @@ ul.nice-menu a.active {
 #block-cmtls-cmtls-subscribe .flag-wrapper a:active {
 	background-position: 0 -24px;
 }
-#block-cmtls-cmtls-subscribe .flag-wrapper .flagged, 
+#block-cmtls-cmtls-subscribe .flag-wrapper .flagged,
 #block-cmtls-cmtls-subscribe .flag-wrapper .unflag-action {
 	background-position: 0 0;
 }
@@ -533,10 +533,10 @@ ul.nice-menu a.active {
 }*/
 /*show text links in page-user page*/
 #block-cmtls-cmtls-subscribe .flag-wrapper.flag-cmtls-instant-notifications a,
-#block-cmtls-cmtls-subscribe .flag-wrapper.flag-cmtls-instant-notifications .flagged, 
+#block-cmtls-cmtls-subscribe .flag-wrapper.flag-cmtls-instant-notifications .flagged,
 #block-cmtls-cmtls-subscribe .flag-wrapper.flag-cmtls-instant-notifications .unflag-action,
 #block-cmtls-cmtls-subscribe .flag-wrapper.flag-cmtls-daily-newsletter a,
-#block-cmtls-cmtls-subscribe .flag-wrapper.flag-cmtls-daily-newsletter .flagged, 
+#block-cmtls-cmtls-subscribe .flag-wrapper.flag-cmtls-daily-newsletter .flagged,
 #block-cmtls-cmtls-subscribe .flag-wrapper.flag-cmtls-daily-newsletter .unflag-action {
   width: auto;
 	padding: 0;
@@ -965,18 +965,15 @@ ul.nice-menu a.active {
 
 /******** FORMS - SHOULD BE MOVED TO MODULE CSS PROBABLY ****************/
 
-/* Hide menu and other advanced Drupal options from cmtls forms */
-.node-form .vertical-tabs {
+/* Hide advanced options from gallery form */
+#media-gallery-node-form #edit-settings-wrapper,
+.page-node-edit.node-type-media-gallery .node-form .vertical-tabs,
+.page-node-add-media-gallery .node-form .vertical-tabs {
   display: none;
 }
 
 /* Hide text filter options from cmtls forms */
 .filter-wrapper {
-  display: none;
-}
-
-/* Hide advanced options from gallery form */
-#media-gallery-node-form #edit-settings-wrapper {
   display: none;
 }
 
@@ -1002,8 +999,8 @@ ul.nice-menu a.active {
 	.ui-autocomplete-loading {
 		background-position: 100% -13px;
 	}
-  
-/* Hide hidden captcha */ 
+
+/* Hide hidden captcha */
 .comment-form .captcha.form-wrapper {
   display: none;
   visibility: hidden;
